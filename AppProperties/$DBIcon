@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note class='form' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.3'
+ replicaid='49257E62002A0AEA'>
+<noteinfo noteid='176' unid='3F278AD05D3513B949257E62002B380D' sequence='1'>
+<created><datetime>20150612T165203,97+09</datetime></created>
+<modified><datetime>20150612T165204,01+09</datetime></modified>
+<revised><datetime>20150612T165203,98+09</datetime></revised>
+<lastaccessed><datetime>20150612T165204,00+09</datetime></lastaccessed>
+<addedtofile><datetime>20150612T165204,00+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Domino Administrator/O=EFMIYO</name></updatedby>
+<wassignedby><name>CN=Domino Administrator/O=EFMIYO</name></wassignedby>
+<item name='$TITLE'><text>$DBIcon</text></item>
+<item name='$Flags'><text>34Ci~Q</text></item>
+<item name='$ImagesWide' sign='true'><number>1</number></item>
+<item name='$ImagesHigh' sign='true'><number>1</number></item>
+<item name='$ImagesColorize' sign='true'><number>0</number></item>
+<item name='$FileSize' sign='true'><number>1507</number></item>
+<item name='$ImageData' sign='true'>
+<rawitemdata type='1'>
+mQAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAH0AHAAAAAIAAAAAAOMFAAABAAAAAAAAAAAAAAB8
+AO0FAADjBeQF/9j/4AAQSkZJRgABAQEAYABgAAD/7AARRHVja3kAAQAEAAAAUAAA/9sAQwACAQEC
+AQECAgICAgICAgMFAwMDAwMGBAQDBQcGBwcHBgcHCAkLCQgICggHBwoNCgoLDAwMDAcJDg8NDA4L
+DAwM/9sAQwECAgIDAwMGAwMGDAgHCAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwM
+DAwMDAwMDAwMDAwMDAwM/8AAEQgAIAAgAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAAB
+AgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNC
+scEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0
+dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY
+2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//E
+ALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoW
+JDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWG
+h4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp
+6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A91/4OBdP+LH7Onx00Hx94b+J3jyw8JePIjZDTbHV7i0t
+dGu7aKMeWixuq7Zk3SDI3bklycYxZ/Z5+Ovjr9sr/giP8QLWz+I3ivR/iN8Dbu51ifUrfVJVvtYs
+YYpbyOOebO8o8bTxL8wO60jJyAQfZP8Aguv8M7/45XOjeEbFPOmXwD4m8VW8O0sz3OlXOjzrsA53
+tbyXkS8c/aCO+a/N3/gmB8dZPh94s+KHglpGXTfi78O9c0AKGwgvksJ5rRz7nE0Q97gVPU0PXvgF
+8bfiJ+09+058Ff2c7r4reNrjwvZ3qX3iLUBqT/a9UvRbtqN3bGbJZoITG1rGrllLJJIRhlVPpXXv
+C/xO/Zk/4LUfCvwLdfEDxRr3ws8ba9qvjLRLG8umaOzmmtL8XNpnGSkLSnYmdgSaM43ZNfH3/BMH
+w7a+Dv8Agt14b0izj8u10nxZ4hsYFAwFjitdRjUfgqiv2f8A2hP2VG+NH7R/wR8fwahbWc3wn1bU
+buaKWIs95b3li8DRxkfdYSrAxzwVVu+MkSZHK/G6JZv+CofwJWRVaNvBHjIMCMhh52iZFfhD+2d8
+C5P2Lf24PGHhGJGhtPCevi70v5vmNi7Lc2vPfELop91YV+vP7S3h39oy/wD+Ct/w78aeFfhzHqnw
+x8D240H7YdUt41vLTURF/aFywLh1MTCMhNpybMHkPx8w/wDBaL/gm78SJ/Hfhvx/4V8NX3i6TUIr
+mxuLHQEub5tIYyJPBAqkblt41WVFkQxg7lURRBRv5cXWq07eyhzX87W28me7kOW4HFyn9fxPsIxt
+ry81972XNF6W6XvfoeK/8E2NXh8Rf8FzNE1C1kWW11Dxl4kuoHz9+N7fUXUj6qQa/d7xl8TtB8Ce
+IPDOl6vqUNjqHi6/fTNIgfO6+uVt5blo1wOMRQStk4Hy4zkgH8QT+wD8UP2Fv2rvg78SLnwb4p1D
+wpfX1pql2/hS9ne803zFt1uLa5lEEJt2Znnby2AXyZWhE0jK8tfTn7Jn7PXxw+Pn7b9p481y58US
+eBvhD4v1aG1m8b63dGTV7qWYW11e6XFFChW08mDbFbORFGbhv3k6mSM8WHzSdSag6TWtn/d+HfTq
+m38nex9XjuBMFQw/1n+0KbTTcdlzW3Ufe3i9Gu70vrb/2W4=
+</rawitemdata></item>
+<item name='$MimeType' sign='true'><text>image/jpeg</text></item>
+<item name='$FileModDT' sign='true'><datetime>20150612T165126,11+09</datetime></item>
+<item name='$ImageNames' sign='true'><text>C:\Users\m.miyo.EFFECT-FORCE\Dropbox\ノーツコンソーシアム\2015年度\XPages研究会\03_06月度\favicon.jpg</text></item>
+<item name='$DesignerVersion'><text>8.5.3</text></item></note>
+
