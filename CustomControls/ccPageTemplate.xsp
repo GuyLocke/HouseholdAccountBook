@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core">
+	<div data-role="page">
+		<div data-role="header">
+			<xp:callback facetName="facet_1" id="callback1"></xp:callback>
+		</div>
+		<div data-role="content">
+			<xp:callback facetName="facet_2" id="callback2"></xp:callback>
+		</div>
+		<div data-role="footer">
+			<xp:callback facetName="facet_3" id="callback3"></xp:callback>
+		</div>
+	</div>
+</xp:view>

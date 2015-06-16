@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.3" replicaid="49257E660023D67A" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="336" sequence="1" unid="9E9C6445DB0CBDA949257E66002A21C7">
+<created><datetime>20150616T164011,59+09</datetime></created>
+<modified><datetime>20150616T164012,30+09</datetime></modified>
+<revised><datetime>20150616T164012,29+09</datetime></revised>
+<lastaccessed><datetime>20150616T164012,30+09</datetime></lastaccessed>
+<addedtofile><datetime>20150616T164012,30+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Admin/O=LotusLab</name></updatedby>
+<wassignedby><name>CN=Admin/O=LotusLab</name></wassignedby>
+<item name="$Flags"><text>D34CiQ</text></item>
+<item name="$FlagsExt"><text>D</text></item>
+<item name="$ImagesWide" sign="true"><number>1</number></item>
+<item name="$ImagesHigh" sign="true"><number>1</number></item>
+<item name="$ImagesColorize" sign="true"><number>0</number></item>
+
+
+<item name="$MimeType" sign="true"><text>image/png</text></item>
+<item name="$FileModDT" sign="true"><datetime>20150616T160417,55+09</datetime></item>
+<item name="$ImageNames" sign="true"><text>home-black.png</text></item>
+<item name="$TITLE" sign="true"><textlist><text>home-black.png</text><text>images/icons-png/home-black.png</text></textlist></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item></note>
