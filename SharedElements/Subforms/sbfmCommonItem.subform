@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<subform name='sbfmCommonItem' xmlns='http://www.lotus.com/dxl' version='9.0'
+ maintenanceversion='1.3' replicaid='49257E660021374A' designerversion='8.5.3'
+ renderpassthrough='true'>
+<noteinfo noteid='226' unid='09685D28DC44D91E49257E6600258001' sequence='7'>
+<created><datetime>20150616T154936,01+09</datetime></created>
+<modified><datetime>20150616T155611,34+09</datetime></modified>
+<revised><datetime>20150616T155611,33+09</datetime></revised>
+<lastaccessed><datetime>20150616T155611,34+09</datetime></lastaccessed>
+<addedtofile><datetime>20150616T154936,29+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Kenji Ebihara/OU=R/O=RSI</name></updatedby>
+<wassignedby><name>CN=Kenji Ebihara/OU=R/O=RSI</name></wassignedby>
+<body><richtext>
+<pardef id='1' tabs='L2.7556in' newpage='true'/>
+<par def='1'>UUID：	<computedtext><code event='value'><formula>@Text(@DocumentUniqueID)</formula></code></computedtext></par>
+<pardef id='2' tabs='L2.7556in'/>
+<par def='2'>CreateDate:	<computedtext><code event='value'><formula>@Text(@Created; "D0T0")</formula></code></computedtext></par>
+<par def='2'>ModifedDate:	<computedtext><code event='value'><formula>@Text(@Modified; "D0T0")</formula></code></computedtext></par></richtext></body>
+<item name='$$ScriptName' summary='false' sign='true'><text>sbfmCommonItem</text></item></subform>
+
