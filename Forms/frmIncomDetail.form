@@ -2,11 +2,11 @@
 <form name='frmIncomDetail' alias='収入明細文書' xmlns='http://www.lotus.com/dxl'
  version='9.0' maintenanceversion='1.3' replicaid='49257E660026021D' publicaccess='false'
  designerversion='8.5.3' renderpassthrough='true'>
-<noteinfo noteid='21e' unid='751FAD74AB11FE7E49257E660026387A' sequence='7'>
+<noteinfo noteid='21e' unid='751FAD74AB11FE7E49257E660026387A' sequence='8'>
 <created><datetime>20150616T155728,26+09</datetime></created>
-<modified><datetime>20150616T160837,20+09</datetime></modified>
-<revised><datetime>20150616T160837,19+09</datetime></revised>
-<lastaccessed><datetime>20150616T160837,20+09</datetime></lastaccessed>
+<modified><datetime>20150616T161235,41+09</datetime></modified>
+<revised><datetime>20150616T161235,40+09</datetime></revised>
+<lastaccessed><datetime>20150616T161235,41+09</datetime></lastaccessed>
 <addedtofile><datetime>20150616T155510,79+09</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Kenji Ebihara/OU=R/O=RSI</name></updatedby>
 <wassignedby><name>CN=Kenji Ebihara/OU=R/O=RSI</name></wassignedby>
