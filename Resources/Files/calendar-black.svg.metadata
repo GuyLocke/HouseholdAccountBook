@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.3" replicaid="49257E660023D67A" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="436" sequence="3" unid="9A45B91DF48FBBF749257E66002A3A4D">
+<created><datetime>20150616T164114,37+09</datetime></created>
+<modified><datetime>20150616T165444,30+09</datetime></modified>
+<revised><datetime>20150616T165444,29+09</datetime></revised>
+<lastaccessed><datetime>20150616T165444,30+09</datetime></lastaccessed>
+<addedtofile><datetime>20150616T164114,66+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Admin/O=LotusLab</name></updatedby>
+<wassignedby><name>CN=Admin/O=LotusLab</name></wassignedby>
+<item name="$Flags"><text>345CgQ</text></item>
+<item name="$FlagsExt"><text>D</text></item>
+
+<item name="$FileModDT" sign="true"><datetime>20150616T160418,20+09</datetime></item>
+
+<item name="$FileNames" sign="true"><text>calendar-black.svg</text></item>
+<item name="$TITLE" sign="true"><textlist><text>calendar-black.svg</text><text>images/icons-svg/calendar-black.svg</text></textlist></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item></note>
