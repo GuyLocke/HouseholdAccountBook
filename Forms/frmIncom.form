@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <form name='frmIncom' alias='収入' xmlns='http://www.lotus.com/dxl' version='9.0'
- maintenanceversion='1.3' replicaid='49257E660021374A' publicaccess='false'
+ maintenanceversion='1.3' replicaid='49257E660026021D' publicaccess='false'
  designerversion='8.5.3' renderpassthrough='true'>
-<noteinfo noteid='222' unid='B320DFD0ECEACD2149257E660024A622' sequence='7'>
+<noteinfo noteid='216' unid='B320DFD0ECEACD2149257E660024A622' sequence='11'>
 <created><datetime>20150616T154018,26+09</datetime></created>
-<modified><datetime>20150616T155613,09+09</datetime></modified>
-<revised><datetime>20150616T155613,08+09</datetime></revised>
-<lastaccessed><datetime>20150616T155613,09+09</datetime></lastaccessed>
-<addedtofile><datetime>20150616T154018,55+09</datetime></addedtofile></noteinfo>
+<modified><datetime>20150616T161212,52+09</datetime></modified>
+<revised><datetime>20150616T161212,49+09</datetime></revised>
+<lastaccessed><datetime>20150616T161212,52+09</datetime></lastaccessed>
+<addedtofile><datetime>20150616T155510,75+09</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Kenji Ebihara/OU=R/O=RSI</name></updatedby>
 <wassignedby><name>CN=Kenji Ebihara/OU=R/O=RSI</name></wassignedby>
 <body><richtext>
@@ -24,14 +24,22 @@ Yg4BAIQAAAAAAAAAAAA=
 </compositedata><run><font size='11pt'
  name='Meiryo UI' pitch='variable' truetype='true' familyid='30'/></run></par>
 <pardef id='3' tabs='L2.7556in'/>
+<par def='3'><run><font size='8pt' name='Meiryo UI' pitch='variable' truetype='true'
+ familyid='30'/>	システムで自動的にUUIDが振られる</run></par>
+<par def='3'><run><font size='8pt' name='Meiryo UI' pitch='variable' truetype='true'
+ familyid='30'/></run></par>
 <par def='3'><run><font size='11pt' name='Meiryo UI' pitch='variable' truetype='true'
  familyid='30'/>日付：	</run><run><font size='11pt' name='Meiryo UI' pitch='variable'
- truetype='true' familyid='30'/><field type='datetime' kind='editable' name='targetDate'><datetimeformat
+ truetype='true' familyid='30'/><field type='datetime' kind='editable' name='targetDate_1'><datetimeformat
  show='date' date='yearmonthday' fourdigityearfor21stcentury='true' zone='never'
  dateformat='yearmonthdayweekday' dayformat='twodigitday' monthformat='twodigitmonth'
  yearformat='fourdigityear' weekdayformat='shortname' dateseparator1='/' dateseparator2='/'
  dateseparator3=' ' timeseparator=':' timeformat24='true' preference='usersetting'/></field></run><run
 ><font size='11pt' name='Meiryo UI' pitch='variable' truetype='true' familyid='30'/></run></par>
+<par def='3'><run><font size='8pt' name='Meiryo UI' pitch='variable' truetype='true'
+ familyid='30'/>	収入日を示す日付</run></par>
+<par def='3'><run><font size='11pt' name='Meiryo UI' pitch='variable' truetype='true'
+ familyid='30'/></run></par>
 <par def='3'><run><font size='11pt' name='Meiryo UI' pitch='variable' truetype='true'
  familyid='30'/>地域：	</run><run><font size='11pt' name='Meiryo UI' pitch='variable'
  truetype='true' familyid='30'/><field type='text' kind='editable' name='area'/></run><compositedata
@@ -39,8 +47,10 @@ Yg4BAIQAAAAAAAAAAAA=
  aftercontainercount='1' afterbegincount='3'>
 Yg4BAIQAAAAAAAAAAAA=
 </compositedata><run><font size='11pt'
- name='Meiryo UI' pitch='variable' truetype='true' familyid='30'/></run></par><subformref
- name='sbfmCommonItem'/>
+ name='Meiryo UI' pitch='variable' truetype='true' familyid='30'/></run></par>
+<par def='3'><run><font size='8pt' name='Meiryo UI' pitch='variable' truetype='true'
+ familyid='30'/>	収入があった地域</run><run><font size='11pt' name='Meiryo UI' pitch='variable'
+ truetype='true' familyid='30'/></run></par><subformref name='sbfmCommonItem'/>
 <par def='1'><run><font size='11pt' name='Meiryo UI' pitch='variable' truetype='true'
  familyid='30'/></run></par></richtext></body>
 <item name='$SubForm_RepIDs' sign='true'><text>0000000000000000</text></item>
