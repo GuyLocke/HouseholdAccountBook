@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.3" replicaid="49257E660023D67A" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="512" sequence="3" unid="F27BFE0AFE21C86E49257E66002A3A84">
+<created><datetime>20150616T164114,92+09</datetime></created>
+<modified><datetime>20150616T164944,99+09</datetime></modified>
+<revised><datetime>20150616T164944,98+09</datetime></revised>
+<lastaccessed><datetime>20150616T164944,99+09</datetime></lastaccessed>
+<addedtofile><datetime>20150616T164115,76+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Admin/O=LotusLab</name></updatedby>
+<wassignedby><name>CN=Admin/O=LotusLab</name></wassignedby>
+<item name="$Flags"><text>345CgQ</text></item>
+<item name="$FlagsExt"><text>D</text></item>
+
+<item name="$FileModDT" sign="true"><datetime>20150616T160418,72+09</datetime></item>
+
+<item name="$FileNames" sign="true"><text>power-white.svg</text></item>
+<item name="$TITLE" sign="true"><textlist><text>power-white.svg</text><text>images/icons-svg/power-white.svg</text></textlist></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item></note>

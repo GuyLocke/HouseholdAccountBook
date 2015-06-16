@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.3" replicaid="49257E660023D67A" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="302" sequence="1" unid="D674075A25CEDB2C49257E66002A21BA">
+<created><datetime>20150616T164011,46+09</datetime></created>
+<modified><datetime>20150616T164012,04+09</datetime></modified>
+<revised><datetime>20150616T164012,03+09</datetime></revised>
+<lastaccessed><datetime>20150616T164012,04+09</datetime></lastaccessed>
+<addedtofile><datetime>20150616T164012,04+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Admin/O=LotusLab</name></updatedby>
+<wassignedby><name>CN=Admin/O=LotusLab</name></wassignedby>
+<item name="$Flags"><text>D34CiQ</text></item>
+<item name="$FlagsExt"><text>D</text></item>
+<item name="$ImagesWide" sign="true"><number>1</number></item>
+<item name="$ImagesHigh" sign="true"><number>1</number></item>
+<item name="$ImagesColorize" sign="true"><number>0</number></item>
+
+
+<item name="$MimeType" sign="true"><text>image/png</text></item>
+<item name="$FileModDT" sign="true"><datetime>20150616T160417,45+09</datetime></item>
+<item name="$ImageNames" sign="true"><text>edit-white.png</text></item>
+<item name="$TITLE" sign="true"><textlist><text>edit-white.png</text><text>images/icons-png/edit-white.png</text></textlist></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item></note>

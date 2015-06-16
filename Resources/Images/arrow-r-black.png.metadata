@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.3" replicaid="49257E660023D67A" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="266" sequence="1" unid="08D6102C06D5EF8249257E66002A2193">
+<created><datetime>20150616T164011,07+09</datetime></created>
+<modified><datetime>20150616T164011,26+09</datetime></modified>
+<revised><datetime>20150616T164011,25+09</datetime></revised>
+<lastaccessed><datetime>20150616T164011,26+09</datetime></lastaccessed>
+<addedtofile><datetime>20150616T164011,26+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Admin/O=LotusLab</name></updatedby>
+<wassignedby><name>CN=Admin/O=LotusLab</name></wassignedby>
+<item name="$Flags"><text>D34CiQ</text></item>
+<item name="$FlagsExt"><text>D</text></item>
+<item name="$ImagesWide" sign="true"><number>1</number></item>
+<item name="$ImagesHigh" sign="true"><number>1</number></item>
+<item name="$ImagesColorize" sign="true"><number>0</number></item>
+
+
+<item name="$MimeType" sign="true"><text>image/png</text></item>
+<item name="$FileModDT" sign="true"><datetime>20150616T160417,13+09</datetime></item>
+<item name="$ImageNames" sign="true"><text>arrow-r-black.png</text></item>
+<item name="$TITLE" sign="true"><textlist><text>arrow-r-black.png</text><text>images/icons-png/arrow-r-black.png</text></textlist></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item></note>
