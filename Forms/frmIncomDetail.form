@@ -2,11 +2,11 @@
 <form name='frmIncomDetail' alias='収入明細文書' xmlns='http://www.lotus.com/dxl'
  version='9.0' maintenanceversion='1.3' replicaid='49257E660026021D' publicaccess='false'
  designerversion='8.5.3' renderpassthrough='true'>
-<noteinfo noteid='21e' unid='751FAD74AB11FE7E49257E660026387A' sequence='10'>
+<noteinfo noteid='21e' unid='751FAD74AB11FE7E49257E660026387A' sequence='11'>
 <created><datetime>20150616T155728,26+09</datetime></created>
-<modified><datetime>20150616T162556,41+09</datetime></modified>
-<revised><datetime>20150616T162556,40+09</datetime></revised>
-<lastaccessed><datetime>20150616T162556,41+09</datetime></lastaccessed>
+<modified><datetime>20150616T164354,12+09</datetime></modified>
+<revised><datetime>20150616T164354,11+09</datetime></revised>
+<lastaccessed><datetime>20150616T164354,12+09</datetime></lastaccessed>
 <addedtofile><datetime>20150616T155510,79+09</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Kenji Ebihara/OU=R/O=RSI</name></updatedby>
 <wassignedby><name>CN=Kenji Ebihara/OU=R/O=RSI</name></wassignedby>
@@ -54,14 +54,15 @@ Yg4BAIQAAAAAAAAAAAA=
  familyid='30'/></run></par>
 <par def='3'><run><font size='11pt' name='Meiryo UI' pitch='variable' truetype='true'
  familyid='30'/>金額：	</run><run><font size='11pt' name='Meiryo UI' pitch='variable'
- truetype='true' familyid='30'/><field type='number' kind='editable' name='account'><numberformat
+ truetype='true' familyid='30'/><field type='number' kind='editable' name='amount'><numberformat
  format='general' digits='2' punctuated='false' parens='false' percent='false'
  bytes='false'/></field></run></par>
 <par def='3'><run><font size='8pt' name='Meiryo UI' pitch='variable' truetype='true'
  familyid='30'/>	収入金額。</run></par>
 <par def='3'/><subformref name='sbfmCommonItem'/>
 <par def='3'/></richtext></body>
+<item name='account' summary='false'><number>0</number></item>
 <item name='$SubForm_RepIDs' sign='true'><text>0000000000000000</text></item>
 <item name='$$ScriptName' summary='false' sign='true'><text>収入明細文書</text></item>
-<item name='account' summary='false'><number>0</number></item></form>
+<item name='amount' summary='false'><number>0</number></item></form>
 
