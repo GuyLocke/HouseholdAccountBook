@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.3" replicaid="49257E660023D67A" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="38a" sequence="1" unid="CA69579E294755B949257E66002A21DC">
+<created><datetime>20150616T164011,80+09</datetime></created>
+<modified><datetime>20150616T164012,72+09</datetime></modified>
+<revised><datetime>20150616T164012,71+09</datetime></revised>
+<lastaccessed><datetime>20150616T164012,72+09</datetime></lastaccessed>
+<addedtofile><datetime>20150616T164012,72+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Admin/O=LotusLab</name></updatedby>
+<wassignedby><name>CN=Admin/O=LotusLab</name></wassignedby>
+<item name="$Flags"><text>D34CiQ</text></item>
+<item name="$FlagsExt"><text>D</text></item>
+<item name="$ImagesWide" sign="true"><number>1</number></item>
+<item name="$ImagesHigh" sign="true"><number>1</number></item>
+<item name="$ImagesColorize" sign="true"><number>0</number></item>
+
+
+<item name="$MimeType" sign="true"><text>image/png</text></item>
+<item name="$FileModDT" sign="true"><datetime>20150616T160417,74+09</datetime></item>
+<item name="$ImageNames" sign="true"><text>recycle-white.png</text></item>
+<item name="$TITLE" sign="true"><textlist><text>recycle-white.png</text><text>images/icons-png/recycle-white.png</text></textlist></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item></note>

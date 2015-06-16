@@ -2,11 +2,11 @@
 <form name='frmIncom' alias='収入' xmlns='http://www.lotus.com/dxl' version='9.0'
  maintenanceversion='1.3' replicaid='49257E660026021D' publicaccess='false'
  designerversion='8.5.3' renderpassthrough='true'>
-<noteinfo noteid='216' unid='B320DFD0ECEACD2149257E660024A622' sequence='11'>
+<noteinfo noteid='216' unid='B320DFD0ECEACD2149257E660024A622' sequence='12'>
 <created><datetime>20150616T154018,26+09</datetime></created>
-<modified><datetime>20150616T161212,52+09</datetime></modified>
-<revised><datetime>20150616T161212,49+09</datetime></revised>
-<lastaccessed><datetime>20150616T161212,52+09</datetime></lastaccessed>
+<modified><datetime>20150616T162459,05+09</datetime></modified>
+<revised><datetime>20150616T162459,02+09</datetime></revised>
+<lastaccessed><datetime>20150616T162459,05+09</datetime></lastaccessed>
 <addedtofile><datetime>20150616T155510,75+09</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Kenji Ebihara/OU=R/O=RSI</name></updatedby>
 <wassignedby><name>CN=Kenji Ebihara/OU=R/O=RSI</name></wassignedby>
@@ -17,7 +17,7 @@
 <pardef id='2' tabs='L2.7556in' newpage='true'/>
 <par def='2'><run><font size='11pt' name='Meiryo UI' pitch='variable' truetype='true'
  familyid='30'/>収入文書ID：	</run><run><font size='11pt' name='Meiryo UI' pitch='variable'
- truetype='true' familyid='30'/><field type='text' kind='editable' name='incomDocId'/></run><compositedata
+ truetype='true' familyid='30'/><field type='text' kind='editable' name='incomId'/></run><compositedata
  type='98' prevtype='65418' nexttype='222' afterparcount='7' containertype='65418'
  aftercontainercount='1' afterbegincount='3'>
 Yg4BAIQAAAAAAAAAAAA=
@@ -30,7 +30,7 @@ Yg4BAIQAAAAAAAAAAAA=
  familyid='30'/></run></par>
 <par def='3'><run><font size='11pt' name='Meiryo UI' pitch='variable' truetype='true'
  familyid='30'/>日付：	</run><run><font size='11pt' name='Meiryo UI' pitch='variable'
- truetype='true' familyid='30'/><field type='datetime' kind='editable' name='targetDate_1'><datetimeformat
+ truetype='true' familyid='30'/><field type='datetime' kind='editable' name='targetDate'><datetimeformat
  show='date' date='yearmonthday' fourdigityearfor21stcentury='true' zone='never'
  dateformat='yearmonthdayweekday' dayformat='twodigitday' monthformat='twodigitmonth'
  yearformat='fourdigityear' weekdayformat='shortname' dateseparator1='/' dateseparator2='/'
@@ -49,10 +49,13 @@ Yg4BAIQAAAAAAAAAAAA=
 </compositedata><run><font size='11pt'
  name='Meiryo UI' pitch='variable' truetype='true' familyid='30'/></run></par>
 <par def='3'><run><font size='8pt' name='Meiryo UI' pitch='variable' truetype='true'
- familyid='30'/>	収入があった地域</run><run><font size='11pt' name='Meiryo UI' pitch='variable'
- truetype='true' familyid='30'/></run></par><subformref name='sbfmCommonItem'/>
+ familyid='30'/>	収入があった地域</run></par><subformref name='sbfmCommonItem'/>
 <par def='1'><run><font size='11pt' name='Meiryo UI' pitch='variable' truetype='true'
  familyid='30'/></run></par></richtext></body>
+<item name='targetDate_1' summary='false'>
+<rawitemdata type='400'>
+AAAAAAAAAAA=
+</rawitemdata></item>
 <item name='$SubForm_RepIDs' sign='true'><text>0000000000000000</text></item>
 <item name='$$ScriptName' summary='false' sign='true'><text>収入</text></item></form>
 
