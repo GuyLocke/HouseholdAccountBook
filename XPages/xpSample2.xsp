@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core"
+	xmlns:xc="http://www.ibm.com/xsp/custom">
+
+	<xc:ccPageTemplate>
+		<xp:this.facets>
+			<xc:ccFooter xp:key="facet_3"></xc:ccFooter>
+			<xp:label value="ラベル２" id="label1" xp:key="facet_2"></xp:label>
+			<xc:ccMenu xp:key="facet_1"></xc:ccMenu>
+		</xp:this.facets>
+	</xc:ccPageTemplate>
+</xp:view>
