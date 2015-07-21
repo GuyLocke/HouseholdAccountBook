@@ -1,17 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.3" replicaid="49257E660023D67A" version="9.0" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="3da" sequence="3" unid="90A3F10B022B97AA49257E66002A3A36">
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.3" replicaid="49257E890018BEA8" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="bf2" sequence="4" unid="90A3F10B022B97AA49257E66002A3A36">
 <created><datetime>20150616T164114,14+09</datetime></created>
-<modified><datetime>20150616T165643,92+09</datetime></modified>
-<revised><datetime>20150616T165643,91+09</datetime></revised>
-<lastaccessed><datetime>20150616T165643,92+09</datetime></lastaccessed>
-<addedtofile><datetime>20150616T164114,20+09</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Admin/O=LotusLab</name></updatedby>
-<wassignedby><name>CN=Admin/O=LotusLab</name></wassignedby>
-<item name="$Flags"><text>345CgQ</text></item>
+<modified><datetime>20150721T140431,93+09</datetime></modified>
+<revised><datetime>20150721T140431,90+09</datetime></revised>
+<lastaccessed><datetime>20150721T140431,93+09</datetime></lastaccessed>
+<addedtofile><datetime>20150721T140113,02+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Takashi Onota/O=AVA</name></updatedby>
+<wassignedby><name>CN=Takashi Onota/O=AVA</name></wassignedby>
 <item name="$FlagsExt"><text>D</text></item>
-
 <item name="$FileModDT" sign="true"><datetime>20150616T160417,93+09</datetime></item>
+<item name="$TITLE" sign="true"><textlist><text>arrow-d-l-black.svg</text><text>images/icons-svg/arrow-d-l-black.svg</text></textlist></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+
 
 <item name="$FileNames" sign="true"><text>arrow-d-l-black.svg</text></item>
-<item name="$TITLE" sign="true"><textlist><text>arrow-d-l-black.svg</text><text>images/icons-svg/arrow-d-l-black.svg</text></textlist></item>
-<item name="$DesignerVersion"><text>8.5.3</text></item></note>
+<item name="$EditFilePath"><text>C:\Users\EK0010~1.KOW\AppData\Local\Temp\notes90C43B\~arrow-d-l-black.svg</text></item>
+<item name="$Flags"><text>345CgQ$</text></item></note>
