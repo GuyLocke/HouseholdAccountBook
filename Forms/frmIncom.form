@@ -1,61 +1,59 @@
 <?xml version='1.0' encoding='utf-8'?>
-<form name='frmIncom' alias='収入' xmlns='http://www.lotus.com/dxl' version='9.0'
- maintenanceversion='1.3' replicaid='49257E660026021D' publicaccess='false'
- designerversion='8.5.3' renderpassthrough='true'>
-<noteinfo noteid='216' unid='B320DFD0ECEACD2149257E660024A622' sequence='12'>
+<note class='form' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.3'
+ replicaid='49257E8900226E16'>
+<noteinfo noteid='4ba' unid='B320DFD0ECEACD2149257E660024A622' sequence='5'>
 <created><datetime>20150616T154018,26+09</datetime></created>
-<modified><datetime>20150616T162459,05+09</datetime></modified>
-<revised><datetime>20150616T162459,02+09</datetime></revised>
-<lastaccessed><datetime>20150616T162459,05+09</datetime></lastaccessed>
-<addedtofile><datetime>20150616T155510,75+09</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Kenji Ebihara/OU=R/O=RSI</name></updatedby>
-<wassignedby><name>CN=Kenji Ebihara/OU=R/O=RSI</name></wassignedby>
-<body><richtext>
-<pardef id='1'/>
-<par def='1'><run><font size='18pt' name='Meiryo UI' pitch='variable' truetype='true'
- familyid='30'/>収入文書</run></par>
-<pardef id='2' tabs='L2.7556in' newpage='true'/>
-<par def='2'><run><font size='11pt' name='Meiryo UI' pitch='variable' truetype='true'
- familyid='30'/>収入文書ID：	</run><run><font size='11pt' name='Meiryo UI' pitch='variable'
- truetype='true' familyid='30'/><field type='text' kind='editable' name='incomId'/></run><compositedata
- type='98' prevtype='65418' nexttype='222' afterparcount='7' containertype='65418'
- aftercontainercount='1' afterbegincount='3'>
-Yg4BAIQAAAAAAAAAAAA=
-</compositedata><run><font size='11pt'
- name='Meiryo UI' pitch='variable' truetype='true' familyid='30'/></run></par>
-<pardef id='3' tabs='L2.7556in'/>
-<par def='3'><run><font size='8pt' name='Meiryo UI' pitch='variable' truetype='true'
- familyid='30'/>	システムで自動的にUUIDが振られる</run></par>
-<par def='3'><run><font size='8pt' name='Meiryo UI' pitch='variable' truetype='true'
- familyid='30'/></run></par>
-<par def='3'><run><font size='11pt' name='Meiryo UI' pitch='variable' truetype='true'
- familyid='30'/>日付：	</run><run><font size='11pt' name='Meiryo UI' pitch='variable'
- truetype='true' familyid='30'/><field type='datetime' kind='editable' name='targetDate'><datetimeformat
- show='date' date='yearmonthday' fourdigityearfor21stcentury='true' zone='never'
- dateformat='yearmonthdayweekday' dayformat='twodigitday' monthformat='twodigitmonth'
- yearformat='fourdigityear' weekdayformat='shortname' dateseparator1='/' dateseparator2='/'
- dateseparator3=' ' timeseparator=':' timeformat24='true' preference='usersetting'/></field></run><run
-><font size='11pt' name='Meiryo UI' pitch='variable' truetype='true' familyid='30'/></run></par>
-<par def='3'><run><font size='8pt' name='Meiryo UI' pitch='variable' truetype='true'
- familyid='30'/>	収入日を示す日付</run></par>
-<par def='3'><run><font size='11pt' name='Meiryo UI' pitch='variable' truetype='true'
- familyid='30'/></run></par>
-<par def='3'><run><font size='11pt' name='Meiryo UI' pitch='variable' truetype='true'
- familyid='30'/>地域：	</run><run><font size='11pt' name='Meiryo UI' pitch='variable'
- truetype='true' familyid='30'/><field type='text' kind='editable' name='area'/></run><compositedata
- type='98' prevtype='65418' nexttype='222' afterparcount='6' containertype='65418'
- aftercontainercount='1' afterbegincount='3'>
-Yg4BAIQAAAAAAAAAAAA=
-</compositedata><run><font size='11pt'
- name='Meiryo UI' pitch='variable' truetype='true' familyid='30'/></run></par>
-<par def='3'><run><font size='8pt' name='Meiryo UI' pitch='variable' truetype='true'
- familyid='30'/>	収入があった地域</run></par><subformref name='sbfmCommonItem'/>
-<par def='1'><run><font size='11pt' name='Meiryo UI' pitch='variable' truetype='true'
- familyid='30'/></run></par></richtext></body>
-<item name='targetDate_1' summary='false'>
+<modified><datetime>20150721T162118,43+09</datetime></modified>
+<revised><datetime>20150721T162118,42+09</datetime></revised>
+<lastaccessed><datetime>20150721T162118,43+09</datetime></lastaccessed>
+<addedtofile><datetime>20150721T151618,34+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Admin/O=LotusLab</name></updatedby>
+<wassignedby><name>CN=Admin/O=LotusLab</name></wassignedby>
+<item name='$Body' sign='true'>
+<rawitemdata type='1'>
+gQKC/1oAAQAAAAAAAAAAAKAFAACgBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAABAAAAAJSHAAAAAAAAAAAAAAAAAQAAAAQAAACDBAEAhf8UAAUAABIQjvsQk/wQlbYQ
+j5GBAoL/WgACAAAAAAAAAAAAoAUAAKAFAQCADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAQEAAAAAlIcAAAAAAAAAAAAAAAABAAAABAAAAIMEAgCF/xoABQAACxCO+xCT/BCV
+thCPkUlEEIFGCd0GAACK//7/UAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiv8rAIoAAAUAMAAAAAAAAAAA
+BQAACwAAAAAAAAAABwAAAAAAaW5jb21JZABiDgEAhAAAAAAAAAAAAN4GAACK/4X/CAAFAAALgQKC
+/1oAAwAAAAAAAAAAAKAFAACgBQEAgA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAABAAAAAJSHAAAAAAAAAAAAAAAAAQAAAAQAAACDBAMAhf83AAUAAAgJEINWEINYEINlEIOA
+EILFEI6pEJOuEJNJEILJVVVJRBCCqhCQVRCC5xCC6hCC6QCBAoMEAwCF/wgABQAACIECgwQDAIX/
+EgAFAAALEJP6EJV0EIFGCd0GAACK//7/VAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAEiAAQAAAAAAAQICAgEBAQEHBAAAAAAAAAAAAAAAAAAALy8gOor/LgCKAAAE
+ADAAAAAAAAAAAAUAAAsAAAAAAAAAAAoAAAAAAHRhcmdldERhdGXeBgAAiv+F/wgABQAAC4ECgwQD
+AIX/IQAFAAAICRCO+xCT/BCT+hCC8BCOphCCtxCT+hCVdACBAoMEAwCF/wgABQAAC4ECgwQDAIX/
+EgAFAAALEJJuEIjmEIFGCd0GAACK//7/UAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiv8oAIoAAAUAMAAA
+AAAAAAAABQAACwAAAAAAAAAABAAAAAAAYXJlYWIOAQCEAAAAAAAAAAAA3gYAAIr/hf8IAAUAAAuB
+AoMEAwCF/yEABQAACAkQjvsQk/wQgqoQgqAQgsEQgr0Qkm4QiOYAgQKDBAMAhf8IAAEAAArdBgAA
+rf9x/zAAAAAAAAMAGAAOAAAAAAAAAAAAAAAAAAAAAAAAAAAAc2JmbUNvbW1vbkl0ZW2t/xsADgAI
+AAAADwBzYmZtQ29tbW9uSXRlbQAArgLeBgAArgCF/wgAAQAACoECgwQBAIX/CAAFAAAL
+</rawitemdata></item>
+<item name='targetDate_1' summary='false' sign='true'>
 <rawitemdata type='400'>
 AAAAAAAAAAA=
 </rawitemdata></item>
 <item name='$SubForm_RepIDs' sign='true'><text>0000000000000000</text></item>
-<item name='$$ScriptName' summary='false' sign='true'><text>収入</text></item></form>
+<item name='$$ScriptName' summary='false' sign='true'><text>収入</text></item>
+<item name='$HTMLCode' sign='true'>
+<rawitemdata type='1'>
+X/8QAAIADwAHAAAAAAAAAA==
+</rawitemdata></item>
+<item name='$Info' sign='true'>
+<rawitemdata type='1'>
+hhgBAIAAAAAAgAAAAQABAP///wAQAAAA
+</rawitemdata></item>
+<item name='$Flags'><text/></item>
+<item name='$Fields'><textlist><text>incomId</text><text>targetDate</text><text
+>area</text></textlist></item>
+<item name='$Fonts'>
+<rawitemdata type='1'>
+i/8oAAEABTZNZWlyeW8gVUkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</rawitemdata></item>
+<item name='$Comment' sign='true'><text>収入</text></item>
+<item name='$TITLE' sign='true'><text>frmIncom</text></item>
+<item name='$DesignerVersion' sign='true'><text>8.5.3</text></item></note>
 
