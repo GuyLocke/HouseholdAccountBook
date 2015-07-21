@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note class='view' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.3'
+ replicaid='49257E89001D8098'>
+<noteinfo noteid='54a' unid='FFB0BE1ED278E13B49257E8900229F73' sequence='5'>
+<created><datetime>20150721T151810,43+09</datetime></created>
+<modified><datetime>20150721T152106,44+09</datetime></modified>
+<revised><datetime>20150721T152106,43+09</datetime></revised>
+<lastaccessed><datetime>20150721T152106,44+09</datetime></lastaccessed>
+<addedtofile><datetime>20150721T151810,44+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Admin System/O=Comture</name></updatedby>
+<wassignedby><name>CN=Admin System/O=Comture</name></wassignedby>
+<item name='$FormulaClass' sign='true'><text>1</text></item>
+<item name='$TITLE' sign='true'><text>vwSpendingMaster|支出区分マスタ</text></item>
+<item name='$Index' sign='true'><text/></item>
+<item name='$Formula' summary='true' sign='true'><formula compiled='true'>
+ogACAAwAAgAkMKQAAwAFACoAJQAEAAIACgAJAAQAJDBjYXRlZ29yaWVzJENvbmZsaWN0JFJFRgAE
+AAQAAABSAAUABABGb3JtAQARAGZybVNwZW5kaW5nTWFzdGVyAAoCBAAFAAQARm9ybQEAFQAQjngQ
+j28Qi+YQlaoQg30Qg1gQg14ACgIEAB0CBAADAAcAFAAOAAkzUzRTNlM3UzlTMTBT
+</formula></item>
+<item name='$Collation' summary='true'>
+<rawitemdata type='2'>
+DwABAABEGGYAAAACACQw
+</rawitemdata></item>
+<item name='$ViewFormat' summary='true' sign='true'>
+<rawitemdata type='5'>
+AQACAAEACEIAAFZDAAACAAwADgAAAFAAAQAACgABAAAAAAAAAAICAAAAVkMAAAoABgAAAAAA0gAB
+AAAKAAAAAAAAAAAAAgIAADAkMBCNxRCPSRCNWBCQVg4AAgAMAAIAJDCkAAMAY2F0ZWdvcmllcxCL
+5hCVqiYAAQAAAAEBAAkBAAAKAQEACgAAAQCtKwEAAQABAAAAAAAAAAAAV0MBAQQJAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAA//8AAAAAAAAAAAAAAAAAAFdDAQEACQAAAAAAAAAAAAAAAAAAAAAAAAQA
+AAAAAP//AAAAAAAAAAAAAAAAAABCAAAAAAABAP///wAFAP///wABAAAAAAAAAAAAAAAAAAEA////
+AAEA////AAAAAQAAAAAAAQAAAAAAAQAAAAAAAAAIAAAAAAABAA==
+</rawitemdata></item>
+<item name='$Comment' sign='true'><text/></item>
+<item name='$Flags'><text>PY</text></item>
+<item name='$DesignerVersion'><text>8.5.3</text></item>
+<item name='$SelQuery' sign='true'>
+<rawitemdata type='f'>
+gQYAAAAAif8zAAAAAAABACcAZnJtU3BlbmRpbmdNYXN0ZXJ8EI54EI9vEIvmEJWqEIN9EINYEINe
+AA==
+</rawitemdata></item></note>
+
