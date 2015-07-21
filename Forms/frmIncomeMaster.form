@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <note class='form' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.3'
  replicaid='49257E8900226E16'>
-<noteinfo noteid='4b2' unid='69F2B534933CFCFF49257E89001FCC4D' sequence='3'>
+<noteinfo noteid='4b2' unid='69F2B534933CFCFF49257E89001FCC4D' sequence='4'>
 <created><datetime>20150721T144719,17+09</datetime></created>
-<modified><datetime>20150721T151820,00+09</datetime></modified>
-<revised><datetime>20150721T151819,99+09</datetime></revised>
-<lastaccessed><datetime>20150721T151820,00+09</datetime></lastaccessed>
+<modified><datetime>20150721T152233,38+09</datetime></modified>
+<revised><datetime>20150721T152233,37+09</datetime></revised>
+<lastaccessed><datetime>20150721T152233,38+09</datetime></lastaccessed>
 <addedtofile><datetime>20150721T151618,26+09</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Admin/O=LotusLab</name></updatedby>
 <wassignedby><name>CN=Admin/O=LotusLab</name></wassignedby>
@@ -14,13 +14,11 @@
 <rawitemdata type='1'>
 X/8QAAIADwAHAAAAAAAAAA==
 </rawitemdata></item>
-<item name='$TITLE'><textlist><text>frmIncomeMaster</text><text>収入分類マスター</text></textlist></item>
 <item name='$Info' sign='true'>
 <rawitemdata type='1'>
 hhgBAIAAAAAAgAAAAQABAP///wAQAAAA
 </rawitemdata></item>
 <item name='$Flags'><text/></item>
-<item name='$DesignerVersion'><text>8.5.3</text></item>
 <item name='$Fonts'>
 <rawitemdata type='1'>
 i/8oAAEABTZNZWlyeW8gVUkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
@@ -44,5 +42,8 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAACUhwAAAAAAAAAAAAAAAAEAAAAEAAAAgwQDAIX/IQAF
 AAAICRCJ/BCNcxCL5hCQ2BCC6BCCxRCT/BCXzQCBAoMEAwCF/wgABQAACIECgwQCAIX/CAABAAAK
 3QYAAK3/cf8wAAAAAAADABgADgAAAAAAAAAAAAAAAAAAAAAAAAAAAHNiZm1Db21tb25JdGVtrf8b
 AA4ACAAAAA8Ac2JmbUNvbW1vbkl0ZW0AAK4C3gYAAK4Ahf8IAAEAAAqBAoMEAwCF/wgAAQAACg==
-</rawitemdata></item></note>
+</rawitemdata></item>
+<item name='$TITLE' sign='true'><textlist><text>frmIncomeMaster</text><text
+>収入分類マスタ</text></textlist></item>
+<item name='$DesignerVersion' sign='true'><text>8.5.3</text></item></note>
 
