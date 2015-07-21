@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note class='view' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.3'
+ replicaid='49257E89001E302A'>
+<noteinfo noteid='546' unid='06057B259571E17F49257E89001F66A3' sequence='5'>
+<created><datetime>20150721T144258,91+09</datetime></created>
+<modified><datetime>20150721T145205,40+09</datetime></modified>
+<revised><datetime>20150721T145205,39+09</datetime></revised>
+<lastaccessed><datetime>20150721T145205,40+09</datetime></lastaccessed>
+<addedtofile><datetime>20150721T144258,95+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Admin/O=LotusLab</name></updatedby>
+<wassignedby><name>CN=Admin/O=LotusLab</name></wassignedby>
+<item name='$FormulaClass' sign='true'><text>1</text></item>
+<item name='$TITLE' sign='true'><text>(vmLookupPrefecture)|LookupPrefecuture</text></item>
+<item name='$Index' sign='true'><text/></item>
+<item name='$Formula' summary='true' sign='true'><formula compiled='true'>
+aAAFADYAMgAFAAcABgAKAAkABABDb3VudHJ5UmVnaW9uUHJlZmVjdHVyZSRDb25mbGljdCRSRUYE
+AAQAAAAeAAUABABGb3JtAQAKAFByZWZlY3R1cmUKAgMABwAOAAgACUwxUzJTM1M=
+</formula></item>
+<item name='$Collation' summary='true'>
+<rawitemdata type='2'>
+BgAAAABE
+</rawitemdata></item>
+<item name='$ViewFormat' summary='true' sign='true'>
+<rawitemdata type='5'>
+AQADAAMACAAAAFZDAAAHAAMAAAAAAGoAAQAACgAAAAAAAAAAAAICAAAAVkMAAAYABgAAAAAAbAAB
+AAAKAAAAAAAAAAAAAgIAAABWQwAACgAMAAAAAABwAAEAAAoAAAAAAAAAAAACAgAAAENvdW50cnkQ
+jZFSZWdpb24Qkm4QlftQcmVmZWN0dXJlEJNzEJO5EJV7EIynJgABAAAAAQEACQEAAAoBAQ4KAAAB
+AK0rAQABAAEAAAAAAAAAAABXQwEBAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAAAAAAAAAA
+AAAAAAAAV0MBAQAJAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA//8AAAAAAAAAAAAAAAAAAFdDAQEA
+CQAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAP//AAAAAAAAAAAAAAAAAABCAAAAAAABAP///wAFAP//
+/wABAAAAAAAAAAAAAAAAAAEA////AAEA////AAAAAQAAAAAAAQAAAAAAAQAAAAAAAAAIAAAAAAAB
+AA==
+</rawitemdata></item>
+<item name='$Comment' sign='true'><text/></item>
+<item name='$Flags'><text>PY</text></item>
+<item name='$DesignerVersion'><text>8.5.3</text></item></note>
+

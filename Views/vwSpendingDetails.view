@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note class='view' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.3'
+ replicaid='49257E89001D8098'>
+<noteinfo noteid='53e' unid='526454E9F29064E149257E890020DBAA' sequence='4'>
+<created><datetime>20150721T145853,86+09</datetime></created>
+<modified><datetime>20150721T150254,56+09</datetime></modified>
+<revised><datetime>20150721T150254,55+09</datetime></revised>
+<lastaccessed><datetime>20150721T150254,56+09</datetime></lastaccessed>
+<addedtofile><datetime>20150721T145853,87+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Admin System/O=Comture</name></updatedby>
+<wassignedby><name>CN=Admin System/O=Comture</name></wassignedby>
+<item name='$FormulaClass' sign='true'><text>1</text></item>
+<item name='$TITLE' sign='true'><text>vwSpendingDetails|支出明細一覧</text></item>
+<item name='$Index' sign='true'><text/></item>
+<item name='$Formula' summary='true' sign='true'><formula compiled='true'>
+ugAFAFgAUwAGAA0AEwAMAAoACQAEAHNwZW5kaW5nRG9jSWRzcGVuZGluZ0RldGFpbERvY0lkc3Bl
+bmRpbmdUeXBldG90YWxQcmljZSRDb25mbGljdCRSRUYABAAEAAAASAAFAAQARm9ybQEAEQBmcm1T
+cGVuZGluZ0RldGFpbAAKAgQABQAEAEZvcm0BAAwAEI54EI9vEJa+EI3XCgIEAB0CBAADAAcAFAAO
+AAkzUzRTNlM3UzlTMTBT
+</formula></item>
+<item name='$Collation' summary='true'>
+<rawitemdata type='2'>
+GgABAABECGYHAAANAHNwZW5kaW5nRG9jSWQ=
+</rawitemdata></item>
+<item name='$ViewFormat' summary='true' sign='true'>
+<rawitemdata type='5'>
+AQAEAAAACAAAAFZDAwANAAoAAAAAAFAAAQAACgABAAAAAAAAAAICAAAAVkMAABMAEAAAAAAAXQAB
+AAAKAAAAAAAAAAAAAgIAAABWQwAADAAMAAAAAABQAAEAAAoAAAAAAAAAAAACAgAAAFZDAAAKAAoA
+AAAAAFAAAQAACgAAAAAAAAAAAAICAAAAc3BlbmRpbmdEb2NJZHNwZW5kaW5nSWRzcGVuZGluZ0Rl
+dGFpbERvY0lkc3BlbmRpbmdEZXRhaWxJZHNwZW5kaW5nVHlwZXNwZW5kaW5nVHlwZXRvdGFsUHJp
+Y2V0b3RhbFByaWNlJgABAAAAAQEACQEAAAoBAQAKAAABAK0rAQABAAEAAAAAAAAAAABXQwEBBAkA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAAAAAAAAAAAAAAAAAAV0MBAQAJAAAAAAAAAAAAAAAA
+AAAAAAAABAAAAAAA//8AAAAAAAAAAAAAAAAAAFdDAQEACQAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA
+AP//AAAAAAAAAAAAAAAAAABXQwEBAAkAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAD//wAAAAAAAAAA
+AAAAAAAAQgAAAAAAAQD///8ABQD///8AAQAAAAAAAAAAAAAAAAABAP///wABAP///wAAAAEAAAAA
+AAEAAAAAAAEAAAAAAAAACAAAAAAAAQA=
+</rawitemdata></item>
+<item name='$Comment' sign='true'><text/></item>
+<item name='$Flags'><text>PY</text></item>
+<item name='$DesignerVersion'><text>8.5.3</text></item>
+<item name='$SelQuery' sign='true'>
+<rawitemdata type='f'>
+gQYAAAAAif8qAAAAAAABAB4AZnJtU3BlbmRpbmdEZXRhaWx8EI54EI9vEJa+EI3X
+</rawitemdata></item></note>
+
