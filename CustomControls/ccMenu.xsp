@@ -3,9 +3,9 @@
 	<div data-role="navbar">
 		<ul>
 			<li>
-				<xp:link escape="true" id="link1" value="/xspSample1.xsp" text="サンプル１"></xp:link></li>
+				<xp:link escape="true" id="link1" value="/xpSample1.xsp" text="サンプル１"></xp:link></li>
 			<li>
-				<xp:link escape="true" text="サンプル２" id="link2" value="/xspSample2.xsp"></xp:link></li>
+				<xp:link escape="true" text="サンプル２" id="link2" value="/xpSample2.xsp"></xp:link></li>
 			<li><a href="#">工事中</a></li>
 			<li><a href="#">工事中</a></li>
 		</ul>
