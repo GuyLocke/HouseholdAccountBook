@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <note class='form' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.3'
  replicaid='49257E8900226E16'>
-<noteinfo noteid='4b2' unid='69F2B534933CFCFF49257E89001FCC4D' sequence='4'>
+<noteinfo noteid='4b2' unid='69F2B534933CFCFF49257E89001FCC4D' sequence='5'>
 <created><datetime>20150721T144719,17+09</datetime></created>
-<modified><datetime>20150721T152233,38+09</datetime></modified>
-<revised><datetime>20150721T152233,37+09</datetime></revised>
-<lastaccessed><datetime>20150721T152233,38+09</datetime></lastaccessed>
+<modified><datetime>20150721T154211,09+09</datetime></modified>
+<revised><datetime>20150721T154211,08+09</datetime></revised>
+<lastaccessed><datetime>20150721T154211,09+09</datetime></lastaccessed>
 <addedtofile><datetime>20150721T151618,26+09</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Admin/O=LotusLab</name></updatedby>
 <wassignedby><name>CN=Admin/O=LotusLab</name></wassignedby>
@@ -14,20 +14,24 @@
 <rawitemdata type='1'>
 X/8QAAIADwAHAAAAAAAAAA==
 </rawitemdata></item>
+<item name='$TITLE'><textlist><text>frmIncomeMaster</text><text>収入分類マスタ</text></textlist></item>
 <item name='$Info' sign='true'>
 <rawitemdata type='1'>
 hhgBAIAAAAAAgAAAAQABAP///wAQAAAA
 </rawitemdata></item>
+<item name='$SubForms'><text>sbfmCommonItem</text></item>
+<item name='$SubForm_RepIDs' sign='true'><text>0000000000000000</text></item>
 <item name='$Flags'><text/></item>
+<item name='$DesignerVersion'><text>8.5.3</text></item>
 <item name='$Fonts'>
 <rawitemdata type='1'>
 i/8oAAEABTZNZWlyeW8gVUkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
 </rawitemdata></item>
 <item name='$$ScriptName' summary='false' sign='true'><text>frmIncomeMaster</text></item>
-<item name='categoriesIncome' placeholder='true'>
+<item name='incomeCategories' placeholder='true'>
 <rawitemdata type='0'>
 </rawitemdata></item>
-<item name='$Fields'><text>categoriesIncome</text></item>
+<item name='$Fields'><text>incomeCategories</text></item>
 <item name='$Body' sign='true'>
 <rawitemdata type='1'>
 gQKC/1oAAQAAAAAAAAAAAKAFAACgBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -36,14 +40,11 @@ l94Qg30Qg1gQg14AgQKC/1oAAgAAAAAAAAAAAKAFAACgBQEAgA8AAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAEBAAAAAJSHAAAAAAAAAAAAAAAAAQAAAAQAAACDBAIAhf8YAAUA
 AAsQjvsQk/wQlaoQl94QgUYJ3QYAAIr//v9QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACK/zQAigABBQhA
-AAAAAAAAAAAFAAALAAAAAAAAAAAQAAAAAABjYXRlZ29yaWVzSW5jb21lYg4BAIQAAAAAAAAAAADe
+AAAAAAAAAAAFAAALAAAAAAAAAAAQAAAAAABpbmNvbWVDYXRlZ29yaWVzYg4BAIQAAAAAAAAAAADe
 BgAAiv+F/wgABQAAC4ECgv9aAAMAAAAAAAAAAACgBQAAoAUBAIAPAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAACUhwAAAAAAAAAAAAAAAAEAAAAEAAAAgwQDAIX/IQAF
 AAAICRCJ/BCNcxCL5hCQ2BCC6BCCxRCT/BCXzQCBAoMEAwCF/wgABQAACIECgwQCAIX/CAABAAAK
 3QYAAK3/cf8wAAAAAAADABgADgAAAAAAAAAAAAAAAAAAAAAAAAAAAHNiZm1Db21tb25JdGVtrf8b
 AA4ACAAAAA8Ac2JmbUNvbW1vbkl0ZW0AAK4C3gYAAK4Ahf8IAAEAAAqBAoMEAwCF/wgAAQAACg==
-</rawitemdata></item>
-<item name='$TITLE' sign='true'><textlist><text>frmIncomeMaster</text><text
->収入分類マスタ</text></textlist></item>
-<item name='$DesignerVersion' sign='true'><text>8.5.3</text></item></note>
+</rawitemdata></item></note>
 
