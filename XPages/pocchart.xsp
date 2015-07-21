@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core">
+
+	<xp:this.resources>
+		<xp:script src="/amd_stop.js" clientSide="true"></xp:script>
+		<xp:script src="/flotr2.min.js" clientSide="true"></xp:script>
+		<xp:script src="/amd_start.js" clientSide="true"></xp:script>
+		<xp:script src="/pocchart.jss" clientSide="false"></xp:script>
+	</xp:this.resources>
+	<xp:this.beforePageLoad><![CDATA[#{javascript:pocchart()}]]></xp:this.beforePageLoad>
+	<xp:div id="chart" style="width:200px;height:200px;"></xp:div>
+	<xp:eventHandler event="onClientLoad" submit="false">
+		<xp:this.script><![CDATA[(function basic_pie(container) {
+
+	//data
+	#{javascript:viewScope.chartdata};
+
+	//draw
+    graph = Flotr.draw(container, [{
+        data: d1,
+        label: 'Comedy'
+    }, {
+        data: d2,
+        label: 'Action'
+    }, {
+        data: d3,
+        label: 'Romance',
+        pie: {
+            explode: 50
+        }
+    }, {
+        data: d4,
+        label: 'Drama'
+    }], {
+        HtmlText: false,
+        grid: {
+            verticalLines: false,
+            horizontalLines: false
+        },
+        xaxis: {
+            showLabels: false
+        },
+        yaxis: {
+            showLabels: false
+        },
+        pie: {
+            show: true,
+            explode: 6
+        },
+        mouse: {
+            track: true
+        },
+        legend: {
+            position: 'se',
+            backgroundColor: '#D2E8FF'
+        }
+    });
+})(document.getElementById("#{id:chart}"));
+]]></xp:this.script>
+	</xp:eventHandler></xp:view>
