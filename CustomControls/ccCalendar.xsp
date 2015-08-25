@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xp:view xmlns:xp="http://www.ibm.com/xsp/core">
-
-
 	<xp:this.resources>
 		<xp:linkResource type="text/template" id="calendar-template"></xp:linkResource>
 		<xp:styleSheet href="css/clndr.css"></xp:styleSheet>
 	</xp:this.resources>
-	<div id="cal1"></div>
+	<div id="calendar_area" class="cal1"></div>
 	<xp:eventHandler event="onClientLoad" submit="false">
-		<xp:this.script><![CDATA[$('#cal1').clndr();]]></xp:this.script>
+		<xp:this.script><![CDATA[$('#calendar_area').clndr();]]></xp:this.script>
 	</xp:eventHandler>
 </xp:view>
