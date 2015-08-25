@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xp:view xmlns:xp="http://www.ibm.com/xsp/core" xmlns:xc="http://www.ibm.com/xsp/custom">
 	<xp:this.resources>
+		<xp:styleSheet href="/jquery.mobile-1.4.5.min.css"></xp:styleSheet>
 		<xp:headTag tagName="script">
 			<xp:this.attributes>
 				<xp:parameter name="type" value="text/javascript"></xp:parameter>
@@ -37,5 +38,10 @@
 			</xp:this.attributes>
 		</xp:headTag>
 	</xp:this.resources>
-	<xc:ccCalendar></xc:ccCalendar>
+	<xc:ccPageTemplate>
+		<xp:this.facets>
+			<xc:ccMenu xp:key="facet_1"></xc:ccMenu>
+			<xc:ccCalendar xp:key="facet_2"></xc:ccCalendar>
+		</xp:this.facets>
+	</xc:ccPageTemplate>
 </xp:view>
