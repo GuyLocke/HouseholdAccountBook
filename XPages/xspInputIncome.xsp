@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core" xmlns:xc="http://www.ibm.com/xsp/custom">
+	<xp:this.resources>
+		<xp:styleSheet href="/jquery.mobile-1.4.5.min.css"></xp:styleSheet>
+		<xp:headTag tagName="script">
+			<xp:this.attributes>
+				<xp:parameter name="type" value="text/javascript"></xp:parameter>
+				<xp:parameter name="src" value="jquery-1.11.3.min.js">
+				</xp:parameter>
+			</xp:this.attributes>
+		</xp:headTag>
+		<xp:headTag tagName="script">
+			<xp:this.attributes>
+				<xp:parameter name="type" value="text/javascript"></xp:parameter>
+				<xp:parameter name="src" value="jquery.mobile-1.4.5.min.js">
+				</xp:parameter>
+			</xp:this.attributes>
+		</xp:headTag>
+	</xp:this.resources>
+	<xc:ccPageTemplate>
+		<xp:this.facets>
+			<xc:ccFooter xp:key="facet_3"></xc:ccFooter>
+			<xc:ccMenu xp:key="facet_1"></xc:ccMenu>
+			<xp:panel xp:key="facet_2">
+				<xp:label value="日付" for="incomeDate"></xp:label>
+				<xp:inputText id="incomeDate" type="date">
+				</xp:inputText>
+				<xp:label value="地域" for="incomeArea"></xp:label>
+				<xp:inputText id="incomeArea" type="text">
+				</xp:inputText>
+				<span>明細</span>
+				<ul data-role="listview" data-inset="true">
+					<xp:repeat id="incomeDetails" rows="99" disableOutputTag="true"
+						var="incomeDetail">
+						<xp:this.value><![CDATA[#{javascript://ダミーデータ
+return [
+	{"incomeType":"給与","amount": 999999},
+	{"incomeType":"出張精算", "amount": 30000}
+];}]]></xp:this.value>
+						<li>
+							<a href="#incomeDetail">
+								<p>
+									<xp:text escape="true" id="computedField1"
+										value="#{javascript:incomeDetail.incomeType}">
+									</xp:text>
+								</p>
+								<p class="ui-li-aside">
+									<xp:text escape="true"
+										id="computedField2"
+										value="#{javascript:incomeDetail.amount;}">
+										<xp:this.converter>
+											<xp:convertNumber
+												pattern="￥ #,##0">
+											</xp:convertNumber>
+										</xp:this.converter>
+									</xp:text>
+								</p>
+							</a>
+						</li>
+					</xp:repeat>
+					<li data-icon="plus">
+						<xp:link id="addDetail">
+							<span>追加</span>
+						</xp:link>
+					</li>
+				</ul>
+				<xp:link id="saveIncome"
+					styleClass="ui-btn ui-btn-inline ui-icon-check ui-btn-icon-left">
+					<span>登録</span>
+				</xp:link>
+				<xp:link id="cancelIncome">
+					<span>キャンセル</span>
+				</xp:link>
+
+			</xp:panel>			
+		</xp:this.facets>
+	</xc:ccPageTemplate>
+</xp:view>

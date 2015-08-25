@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core">
+
+	<xp:this.resources>
+		<xp:styleSheet href="/jquery.mobile-1.4.5.min.css"></xp:styleSheet>
+		<xp:styleSheet href="/jquery.mobile.icons-1.4.5.min.css"></xp:styleSheet>
+		<xp:headTag tagName="script">
+			<xp:this.attributes>
+				<xp:parameter name="type" value="text/javascript" />
+				<xp:parameter name="src" value="jquery-1.11.3.min.js" />
+			</xp:this.attributes>
+		</xp:headTag>
+		<xp:headTag tagName="script">
+			<xp:this.attributes>
+				<xp:parameter name="type" value="text/javascript" />
+				<xp:parameter name="src" value="jquery.mobile-1.4.5.min.js" />
+			</xp:this.attributes>
+		</xp:headTag>
+	</xp:this.resources>
+
+	<!-- サイズをデバイスの幅に設定、倍率を固定-->
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+ 
+	<!-- ページ -->
+	<div data-role="page">
+		<!-- ヘッダー -->
+		<header data-role="header">
+			<h3>ヘッダー</h3>
+		</header>
+
+		<!-- コンテンツ -->
+		<article data-role="content">
+
+		</article>
+
+		<!-- フッター -->
+		<footer data-role="footer">
+			<h3>フッター</h3>
+		</footer>
+	</div>
+
+</xp:view>
