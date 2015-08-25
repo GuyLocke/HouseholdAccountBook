@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core" xmlns:xc="http://www.ibm.com/xsp/custom">
+	<xp:this.resources>
+		<xp:styleSheet href="/jquery.mobile-1.4.5.min.css"></xp:styleSheet>
+		<xp:headTag tagName="script">
+			<xp:this.attributes>
+				<xp:parameter name="type" value="text/javascript"></xp:parameter>
+				<xp:parameter name="src" value="jquery-1.11.3.min.js">
+				</xp:parameter>
+			</xp:this.attributes>
+		</xp:headTag>
+		<xp:headTag tagName="script">
+			<xp:this.attributes>
+				<xp:parameter name="type" value="text/javascript"></xp:parameter>
+				<xp:parameter name="src" value="jquery.mobile-1.4.5.min.js">
+				</xp:parameter>
+			</xp:this.attributes>
+		</xp:headTag>
+	</xp:this.resources>
+	<xc:ccPageTemplate>
+		<xp:this.facets>
+			<xc:ccFooter xp:key="facet_3"></xc:ccFooter>
+			<xp:panel xp:key="facet_2">
+				<xp:label value="分類"></xp:label>
+				<xp:comboBox id="cmbCategory">
+					<xp:selectItem itemLabel="test"></xp:selectItem>
+					<xp:selectItem itemLabel="テスト"></xp:selectItem>
+				</xp:comboBox>
+				<xp:label value="製品名"></xp:label>
+				<xp:inputText id="inputText1"></xp:inputText>
+				<xp:label value="単価"></xp:label>
+				<xp:inputText id="inputText2"></xp:inputText>
+				<xp:label value="個数"></xp:label>
+				<xp:inputText id="inputText3"></xp:inputText>
+				<xp:label value="金額"></xp:label>
+				<xp:br />
+				<xp:text escape="true" id="computedField1"
+					value="#{javascript:'\\ 999,999'}">
+				</xp:text>
+				<xp:checkBox text="価格変動" id="checkBox1"></xp:checkBox>
+				
+				<xp:panel id="pnlAction"
+					style="margin-top:20px;">
+					<xp:button value="登録" id="button1"
+						style="width:49%; height:40px; display:inline-block;">
+						</xp:button>
+					<xp:link escape="true" text="キャンセル" id="link1"
+						style="display:inline-block; margin-left:20px;">
+					</xp:link>
+				</xp:panel>
+			</xp:panel>
+			<xc:ccMenu xp:key="facet_1"></xc:ccMenu>
+		</xp:this.facets>
+	</xc:ccPageTemplate>
+</xp:view>
