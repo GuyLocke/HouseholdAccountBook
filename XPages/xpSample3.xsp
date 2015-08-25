@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core" xmlns:xc="http://www.ibm.com/xsp/custom">
+	<xp:this.resources>
+		<xp:styleSheet href="/jquery.mobile-1.4.5.min.css"></xp:styleSheet>
+		<xp:headTag tagName="script">
+			<xp:this.attributes>
+				<xp:parameter name="type" value="text/javascript"></xp:parameter>
+				<xp:parameter name="src" value="jquery-1.11.3.min.js">
+				</xp:parameter>
+			</xp:this.attributes>
+		</xp:headTag>
+		<xp:headTag tagName="script">
+			<xp:this.attributes>
+				<xp:parameter name="type" value="text/javascript"></xp:parameter>
+				<xp:parameter name="src" value="jquery.mobile-1.4.5.min.js">
+				</xp:parameter>
+			</xp:this.attributes>
+		</xp:headTag>
+	</xp:this.resources>
+	<xc:ccPageTemplate>
+		<xp:this.facets>
+			<xc:ccTestGeolocation xp:key="facet_2"></xc:ccTestGeolocation>
+			<xc:ccFooter xp:key="facet_3"></xc:ccFooter>
+			
+			<xc:ccMenu xp:key="facet_1"></xc:ccMenu>
+		</xp:this.facets>
+	</xc:ccPageTemplate>
+</xp:view>

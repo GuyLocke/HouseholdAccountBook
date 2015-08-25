@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="49257E6600452AF8" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="536" sequence="38" unid="2D943D6EAF6A0C9A49257E830044EB9C">
+<created><datetime>20150715T213247,64+09</datetime></created>
+<modified><datetime>20150715T223340,31+09</datetime></modified>
+<revised><datetime>20150715T223340,30+09</datetime></revised>
+<lastaccessed><datetime>20150715T223340,31+09</datetime></lastaccessed>
+<addedtofile><datetime>20150715T213247,65+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=admin maro/O=maro</name></updatedby>
+<wassignedby><name>CN=admin maro/O=maro</name></wassignedby>
+<item name="$Flags"><text>gC~4;</text></item>
+<item name="$TITLE"><text>ccTestGeolocation.xsp</text></item>
+
+
+
+
+
+<item name="$FileNames" sign="true"><text>ccTestGeolocation.xsp</text></item>
+<item name="$DesignerVersion"><text>8.5.1</text></item>
+
+
+
+</note>
