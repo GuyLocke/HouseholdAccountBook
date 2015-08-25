@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <note class='form' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.3'
  replicaid='49257E890018BEA8'>
-<noteinfo noteid='f66' unid='014068D1C9DFBAC249257EAC002463BE' sequence='5'>
+<noteinfo noteid='f66' unid='014068D1C9DFBAC249257EAC002463BE' sequence='7'>
 <created><datetime>20150825T153728,30+09</datetime></created>
-<modified><datetime>20150825T154646,96+09</datetime></modified>
-<revised><datetime>20150825T154646,95+09</datetime></revised>
-<lastaccessed><datetime>20150825T154646,96+09</datetime></lastaccessed>
+<modified><datetime>20150825T160016,86+09</datetime></modified>
+<revised><datetime>20150825T160016,85+09</datetime></revised>
+<lastaccessed><datetime>20150825T160016,86+09</datetime></lastaccessed>
 <addedtofile><datetime>20150825T153728,31+09</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Takashi Onota/O=AVA</name></updatedby>
 <wassignedby><name>CN=Takashi Onota/O=AVA</name></wassignedby>
@@ -18,7 +18,7 @@ AAAAAAAAAAA=
 X/8QAAIADwAHAAAAAAAAAA==
 </rawitemdata></item>
 <item name='$TITLE'><text>frmReport</text></item>
-<item name='$Comment' sign='true'><text>支出</text></item>
+<item name='$Comment' sign='true'><text>レポート</text></item>
 <item name='$Info' sign='true'>
 <rawitemdata type='1'>
 hhgBAIAAAAAAgAAAAQABAP///wAQAAAA
@@ -63,7 +63,7 @@ i/8oAAEABTZNZWlyeW8gVUkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
 <item name='budget' summary='false'><number>0</number></item>
 <item name='categoryBudget' summary='false'><number>0</number></item>
 <item name='$Fields'><textlist><text>categoryBudget</text><text>budget</text><text
->Total</text><text>categorySubTotal</text><text>salary</text><text>area</text><text
+>total</text><text>categorySubTotal</text><text>salary</text><text>area</text><text
 >familyMember</text><text>userUNID</text><text>month</text><text>year</text><text
 >nickname</text><text>publishFlag</text><text>authors</text><text>readears</text></textlist></item>
 <item name='$Body' sign='true'>
@@ -115,7 +115,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiv80AIoAAAMAMAAAAAAAAAAABQAACwAA
 AAAAAAAAEAAAAAAAY2F0ZWdvcnlTdWJUb3RhbN4GAACK/4X/CAAFAAALgQKDBAMAhf8IAAUAAAuB
 AoMEAwCF/xIABQAACxCNhxCMdhCBRgndBgAAiv/+/1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIr/KgCK
-AAADADAAAAAAAAAAAAUAAAsAAAAAAAAAAAUAAAAAAFRvdGFsAN4GAACK/4X/CAAFAAALgQKDBAMA
+AAADADAAAAAAAAAAAAUAAAsAAAAAAAAAAAUAAAAAAHRvdGFsAN4GAACK/4X/CAAFAAALgQKDBAMA
 hf8IAAUAAAuBAoMEAwCF/xIABQAACxCXXBCOWhCBRgndBgAAiv/+/1AAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAIr/KgCKAAADADAAAAAAAAAAAAUAAAsAAAAAAAAAAAYAAAAAAGJ1ZGdldN4GAACK/4X/CAAF
