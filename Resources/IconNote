@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <note default='true' class='icon' xmlns='http://www.lotus.com/dxl' version='9.0'
+<<<<<<< HEAD
  maintenanceversion='1.3' replicaid='49257E8900240663'>
 <noteinfo noteid='11a' unid='C98621572292091849257E8900240668' sequence='11'>
 <created><datetime>20150721T153329,36+09</datetime></created>
@@ -9,6 +10,17 @@
 <addedtofile><datetime>20150721T153329,39+09</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Admin System/O=Comture</name></updatedby>
 <wassignedby><name>CN=Admin System/O=Comture</name></wassignedby>
+=======
+ maintenanceversion='1.3' replicaid='49257E890018BEA8'>
+<noteinfo noteid='11a' unid='1DB614A978F2977549257E890018BEE0' sequence='11'>
+<created><datetime>20150721T133017,28+09</datetime></created>
+<modified><datetime>20150721T153751,85+09</datetime></modified>
+<revised><datetime>20150721T153751,84+09</datetime></revised>
+<lastaccessed><datetime>20150721T153751,85+09</datetime></lastaccessed>
+<addedtofile><datetime>20150721T133017,32+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Takashi Onota/O=AVA</name></updatedby>
+<wassignedby><name>CN=Takashi Onota/O=AVA</name></wassignedby>
+>>>>>>> 2c8de6f4a16149aadb01a7c107e517e059d86e00
 <item name='IconBitmap' summary='true'>
 <rawitemdata type='6'>
 AiAgAQAA///////wD///4Af//8AD//4AAH/8AAA/+AAAH/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAA
