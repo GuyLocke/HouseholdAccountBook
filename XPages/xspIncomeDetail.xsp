@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core" xmlns:xc="http://www.ibm.com/xsp/custom">
+	<xp:this.resources>
+		<xp:styleSheet href="/jquery.mobile-1.4.5.min.css"></xp:styleSheet>
+		<xp:headTag tagName="script">
+			<xp:this.attributes>
+				<xp:parameter name="type" value="text/javascript"></xp:parameter>
+				<xp:parameter name="src" value="jquery-1.11.3.min.js">
+				</xp:parameter>
+			</xp:this.attributes>
+		</xp:headTag>
+		<xp:headTag tagName="script">
+			<xp:this.attributes>
+				<xp:parameter name="type" value="text/javascript"></xp:parameter>
+				<xp:parameter name="src" value="jquery.mobile-1.4.5.min.js">
+				</xp:parameter>
+			</xp:this.attributes>
+		</xp:headTag>
+	</xp:this.resources>
+	
+	<xc:ccPageTemplate>
+		<xp:this.facets>
+			<xc:ccFooter xp:key="facet_3"></xc:ccFooter>
+			<xc:ccMenu xp:key="facet_1"></xc:ccMenu>
+			<xp:panel xp:key="facet_2">
+				<xp:label value="分類" for="incomeType"></xp:label>
+				<xp:comboBox id="incomeType">
+					<xp:selectItems>
+						<xp:this.value><![CDATA[#{javascript:
+//マスタから取得するように変更
+return [
+	"給与|001",
+	"手当等|002",
+	"太陽光発電収入|003"
+]}]]></xp:this.value>
+					</xp:selectItems>
+				</xp:comboBox>
+				<xp:label value="金額" for="incomeType"></xp:label>
+				<xp:inputText id="incomeAmount" type="number"></xp:inputText>
+				<xp:link id="saveIncome"
+					styleClass="ui-btn ui-btn-inline ui-icon-check ui-btn-icon-left">
+					<span>登録</span>
+				</xp:link>
+				<xp:link id="cancelIncome">
+					<span>キャンセル</span>
+				</xp:link>
+			</xp:panel>
+			
+		</xp:this.facets>
+	</xc:ccPageTemplate>
+</xp:view>
