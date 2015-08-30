@@ -1,38 +1,44 @@
 <?xml version='1.0' encoding='utf-8'?>
-<view name='vwIncomDetails' alias='収入明細一覧' xmlns='http://www.lotus.com/dxl'
- version='9.0' maintenanceversion='1.3' replicaid='49257E66002B333E' showinmenu='false'
- noreplace='true' publicaccess='false' designerversion='8.5.3' unreadmarks='none'
- onopengoto='lastopened' onrefresh='displayindicator' headers='beveled' opencollapsed='false'
- showresponsehierarchy='true' showmargin='true' shrinkrows='false' extendlastcolumn='false'
- showhierarchies='false' unreadcolor='black' rowlinecount='1' headerlinecount='1'
- rowspacing='1' bgcolor='white' totalscolor='black' headerbgcolor='white'
- boldunreadrows='false' evaluateactions='false' allownewdocuments='false'
- allowcustomizations='true' hidemarginborder='false' marginwidth='0px' marginbgcolor='white'
- uniquekeys='false'>
-<noteinfo noteid='166' unid='57C07BBF96422DBA49257E66002B3683' sequence='5'>
+<note class='view' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.0'
+ replicaid='49257E6600452AF8'>
+<noteinfo noteid='16a' unid='57C07BBF96422DBA49257E66002B3683' sequence='2'>
 <created><datetime>20150616T165200,03+09</datetime></created>
-<modified><datetime>20150616T170256,33+09</datetime></modified>
-<revised><datetime>20150616T170256,32+09</datetime></revised>
-<lastaccessed><datetime>20150616T170256,33+09</datetime></lastaccessed>
-<addedtofile><datetime>20150616T165200,04+09</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Kenji Ebihara/OU=R/O=RSI</name></updatedby>
-<wassignedby><name>CN=Kenji Ebihara/OU=R/O=RSI</name></wassignedby><code event='selection'><formula
->SELECT ((Form = "frmIncomDetail") | (Form = "収入明細文書"))</formula></code>
-<column sort='ascending' hidedetailrows='false' itemname='incomId' width='10'
- resizable='true' separatemultiplevalues='true' sortnoaccent='true' sortnocase='true'
- showaslinks='false' categorized='true'><columnheader title='incomId'><font
- size='9pt' color='blue' style='bold'/></columnheader></column>
-<column hidedetailrows='false' itemname='incomDetailId' width='10' resizable='true'
- separatemultiplevalues='false' sortnoaccent='false' sortnocase='true' showaslinks='false'><columnheader
- title='incomDetailId'><font size='9pt' style='bold'/></columnheader></column>
-<column hidedetailrows='false' itemname='incomType' width='10' resizable='true'
- separatemultiplevalues='false' sortnoaccent='false' sortnocase='true' showaslinks='false'><columnheader
- title='incomType'><font size='9pt' style='bold'/></columnheader></column>
-<column hidedetailrows='false' itemname='amount' width='10' resizable='true'
- separatemultiplevalues='false' sortnoaccent='false' sortnocase='true' showaslinks='false'><columnheader
- title='amount'><font size='9pt' style='bold'/></columnheader></column>
+<modified><datetime>20150616T213837,58+09</datetime></modified>
+<revised><datetime>20150616T213837,57+09</datetime></revised>
+<lastaccessed><datetime>20150616T213837,58+09</datetime></lastaccessed>
+<addedtofile><datetime>20150616T213837,56+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=admin maro/O=maro</name></updatedby>
+<wassignedby><name>CN=admin maro/O=maro</name></wassignedby>
+<item name='$FormulaClass' sign='true'><text>1</text></item>
+<item name='$TITLE' sign='true'><text>vwIncomDetails|収入明細一覧</text></item>
+<item name='$Index' sign='true'><text/></item>
+<item name='$Formula' summary='true' sign='true'><formula compiled='true'>
+rAAFAEQAQAAGAAcADQAJAAYACQAEAGluY29tSWRpbmNvbURldGFpbElkaW5jb21UeXBlYW1vdW50
+JENvbmZsaWN0JFJFRgQABAAAAEoABQAEAEZvcm0BAA4AZnJtSW5jb21EZXRhaWwKAgQABQAEAEZv
+cm0BABIAEI77EJP8EJa+EI3XEJW2EI+RCgIEAB0CBAADAAcAGAASAAlMMVM0UzVTN1M4UzEwUzEx
+Uw==
+</formula></item>
+<item name='$Collation' summary='true'>
+<rawitemdata type='2'>
+FAABAABECGYHAAAHAGluY29tSWQ=
+</rawitemdata></item>
+<item name='$ViewFormat' summary='true' sign='true'>
+<rawitemdata type='5'>
+AQAEAAAACAAAAFZDAwAHAAcAAAAAAFAAAQAACgABAAAAAAAAAAICAAAAVkMAAA0ADQAAAAAAUAAB
+AAAKAAAAAAAAAAAAAgIAAABWQwAACQAJAAAAAABQAAEAAAoAAAAAAAAAAAACAgAAAFZDAAAGAAYA
+AAAAAFAAAQAACgAAAAAAAAAAAAICAAAAaW5jb21JZGluY29tSWRpbmNvbURldGFpbElkaW5jb21E
+ZXRhaWxJZGluY29tVHlwZWluY29tVHlwZWFtb3VudGFtb3VudCYAAQAAAAEBAAkBAAAKAQEACgAA
+AQCtKwEAAQABAAAAAAAAAAAAV0MBAQQJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAAAAAAAA
+AAAAAAAAAFdDAQEACQAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAP//AAAAAAAAAAAAAAAAAABXQwEB
+AAkAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAD//wAAAAAAAAAAAAAAAAAAV0MBAQAJAAAAAAAAAAAA
+AAAAAAAAAAAABAAAAAAA//8AAAAAAAAAAAAAAAAAAEIAAAAAAAEA////AAUA////AAEAAAAAAAAA
+AAAAAAAAAQD///8AAQD///8AAAABAAAAAAABAAAAAAABAAAAAAAAAAgAAAAAAAEA
+</rawitemdata></item>
+<item name='$Comment' sign='true'><text/></item>
+<item name='$DesignerVersion'><text>8.5.3</text></item>
 <item name='$SelQuery' sign='true'>
 <rawitemdata type='f'>
 gQYAAAAAif8tAAAAAAABACEAZnJtSW5jb21EZXRhaWx8EI77EJP8EJa+EI3XEJW2EI+RAA==
-</rawitemdata></item></view>
+</rawitemdata></item>
+<item name='$Flags'><text>PY</text></item></note>
 

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="49257E6600452AF8" version="9.0" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="606" sequence="28" unid="9EAD8169B6AC5C6849257EAC001CA487">
+<noteinfo noteid="606" sequence="86" unid="9EAD8169B6AC5C6849257EAC001CA487">
 <created><datetime>20150825T141251,27+09</datetime></created>
-<modified><datetime>20150825T144207,16+09</datetime></modified>
-<revised><datetime>20150825T144207,15+09</datetime></revised>
-<lastaccessed><datetime>20150825T144207,16+09</datetime></lastaccessed>
+<modified><datetime>20150830T010027,74+09</datetime></modified>
+<revised><datetime>20150830T010027,73+09</datetime></revised>
+<lastaccessed><datetime>20150830T010027,74+09</datetime></lastaccessed>
 <addedtofile><datetime>20150825T141251,28+09</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=admin maro/O=maro</name></updatedby>
 <wassignedby><name>CN=admin maro/O=maro</name></wassignedby>
 <item name="$Flags"><text>gC~4;</text></item>
-
-
 <item name="$TITLE" sign="true"><text>ccCalendar.xsp</text></item>
 
 
 
+
+
 <item name="$FileNames" sign="true"><text>ccCalendar.xsp</text></item>
-<item name="$DesignerVersion"><text>8.5.1</text></item>
+<item name="$DesignerVersion"><text>8.5</text></item>
 
 
 

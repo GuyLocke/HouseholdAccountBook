@@ -2,6 +2,7 @@
 <xp:view xmlns:xp="http://www.ibm.com/xsp/core" xmlns:xc="http://www.ibm.com/xsp/custom">
 	<xp:this.resources>
 		<xp:styleSheet href="/jquery.mobile-1.4.5.min.css"></xp:styleSheet>
+		<xp:styleSheet href="css/clndr.css"></xp:styleSheet>
 		<xp:headTag tagName="script">
 			<xp:this.attributes>
 				<xp:parameter name="type" value="text/javascript"></xp:parameter>
@@ -12,7 +13,8 @@
 		<xp:headTag tagName="script">
 			<xp:this.attributes>
 				<xp:parameter name="type" value="text/javascript"></xp:parameter>
-				<xp:parameter name="src" value="jquery.mobile-1.4.5.min.js">
+				<xp:parameter name="src"
+					value="jquery.mobile-1.4.5.min.js">
 				</xp:parameter>
 			</xp:this.attributes>
 		</xp:headTag>
@@ -26,7 +28,16 @@
 		<xp:headTag tagName="script">
 			<xp:this.attributes>
 				<xp:parameter name="type" value="text/javascript"></xp:parameter>
-				<xp:parameter name="src" value="js/moment.min.js">
+				<xp:parameter name="src"
+					value="js/moment-with-locales.js">
+				</xp:parameter>
+			</xp:this.attributes>
+		</xp:headTag>
+		<xp:headTag tagName="script">
+			<xp:this.attributes>
+				<xp:parameter name="type" value="text/javascript"></xp:parameter>
+				<xp:parameter name="src"
+					value="js/moment-timezone-with-data.js">
 				</xp:parameter>
 			</xp:this.attributes>
 		</xp:headTag>
@@ -37,11 +48,13 @@
 				</xp:parameter>
 			</xp:this.attributes>
 		</xp:headTag>
+		<xp:script src="/calendarApp.js" clientSide="true"></xp:script>
+		<xp:styleSheet href="/calendarApp.css"></xp:styleSheet>
 	</xp:this.resources>
 	<xc:ccPageTemplate>
 		<xp:this.facets>
 			<xc:ccMenu xp:key="facet_1"></xc:ccMenu>
-			<xc:ccCalendar xp:key="facet_2"></xc:ccCalendar>
+			<xc:ccCalendarApp xp:key="facet_2"></xc:ccCalendarApp>
 		</xp:this.facets>
 	</xc:ccPageTemplate>
 </xp:view>

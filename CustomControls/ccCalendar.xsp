@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xp:view xmlns:xp="http://www.ibm.com/xsp/core">
-	<xp:this.resources>
-		<xp:linkResource type="text/template" id="calendar-template"></xp:linkResource>
-		<xp:styleSheet href="css/clndr.css"></xp:styleSheet>
-	</xp:this.resources>
-	<div id="calendar_area" class="cal1"></div>
-	<xp:eventHandler event="onClientLoad" submit="false">
-		<xp:this.script><![CDATA[$('#calendar_area').clndr();]]></xp:this.script>
-	</xp:eventHandler>
+	<!-- カレンダーを表示するパネル。バックエンドからはクラス名で参照する。 -->
+	<xp:panel id="calendar_container" styleClass="calendar_container cal1"></xp:panel>
 </xp:view>

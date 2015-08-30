@@ -39,7 +39,8 @@
 
   // This is the default calendar template. This can be overridden.
   var clndrTemplate = "<div class='clndr-controls'>" +
-    "<div class='clndr-control-button'><span class='clndr-previous-button'>previous</span></div><div class='month'><%= month %> <%= year %></div><div class='clndr-control-button rightalign'><span class='clndr-next-button'>next</span></div>" +
+    //"<div class='clndr-control-button'><span class='clndr-previous-button'>previous</span></div><div class='month'><%= month %> <%= year %></div><div class='clndr-control-button rightalign'><span class='clndr-next-button'>next</span></div>" +
+    "<div class='clndr-control-button'><span class='clndr-previous-button'>previous</span></div><div class='month'><span class='month-button'><%= month %> <%= year %></span></div><div class='clndr-control-button rightalign'><span class='clndr-next-button'>next</span></div>" +
     "</div>" +
     "<table class='clndr-table' border='0' cellspacing='0' cellpadding='0'>" +
     "<thead>" +
@@ -415,7 +416,7 @@
     var properties = {
       isInactive: false,
       isAdjacentMonth: false,
-      isToday: false,
+      isToday: false
     };
     var extraClasses = "";
 

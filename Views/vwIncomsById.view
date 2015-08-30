@@ -1,34 +1,41 @@
 <?xml version='1.0' encoding='utf-8'?>
-<view name='vwIncomsById' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.3'
- replicaid='49257E66002B333E' showinmenu='false' noreplace='true' publicaccess='false'
- designerversion='8.5.3' unreadmarks='none' onopengoto='lastopened' onrefresh='displayindicator'
- headers='beveled' opencollapsed='false' showresponsehierarchy='true' showmargin='true'
- shrinkrows='false' extendlastcolumn='false' showhierarchies='false' unreadcolor='black'
- rowlinecount='1' headerlinecount='1' rowspacing='1' bgcolor='white' totalscolor='black'
- headerbgcolor='white' boldunreadrows='false' evaluateactions='false' allownewdocuments='false'
- allowcustomizations='true' hidemarginborder='false' marginwidth='0px' marginbgcolor='white'
- uniquekeys='false'>
-<noteinfo noteid='4e2' unid='3028BE69A732A88B49257E66002BCF11' sequence='9'>
+<note class='view' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.0'
+ replicaid='49257E6600452AF8'>
+<noteinfo noteid='162' unid='3028BE69A732A88B49257E66002BCF11' sequence='2'>
 <created><datetime>20150616T165830,57+09</datetime></created>
-<modified><datetime>20150616T170309,34+09</datetime></modified>
-<revised><datetime>20150616T170309,33+09</datetime></revised>
-<lastaccessed><datetime>20150616T170309,34+09</datetime></lastaccessed>
-<addedtofile><datetime>20150616T165830,60+09</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Kenji Ebihara/OU=R/O=RSI</name></updatedby>
-<wassignedby><name>CN=Kenji Ebihara/OU=R/O=RSI</name></wassignedby><code event='selection'><formula
->SELECT ((Form = "frmIncom") | (Form = "収入"))</formula></code>
-<column sort='ascending' hidedetailrows='false' itemname='incomId' width='10'
- resizable='true' separatemultiplevalues='false' sortnoaccent='true' sortnocase='true'
- showaslinks='false'><columnheader title='incomId'><font size='9pt' color='blue'
- style='bold'/></columnheader></column>
-<column hidedetailrows='false' itemname='targetDate' width='10' resizable='true'
- separatemultiplevalues='true' sortnoaccent='false' sortnocase='true' showaslinks='false'><columnheader
- title='targetDate'><font size='9pt' style='bold'/></columnheader></column>
-<column hidedetailrows='false' itemname='area' width='10' resizable='true'
- separatemultiplevalues='false' sortnoaccent='false' sortnocase='true' showaslinks='false'><columnheader
- title='area'><font size='9pt' style='bold'/></columnheader></column>
+<modified><datetime>20150616T213837,46+09</datetime></modified>
+<revised><datetime>20150616T213837,45+09</datetime></revised>
+<lastaccessed><datetime>20150616T213837,46+09</datetime></lastaccessed>
+<addedtofile><datetime>20150616T213837,44+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=admin maro/O=maro</name></updatedby>
+<wassignedby><name>CN=admin maro/O=maro</name></wassignedby>
+<item name='$FormulaClass' sign='true'><text>1</text></item>
+<item name='$TITLE' sign='true'><text>vwIncomsById</text></item>
+<item name='$Index' sign='true'><text/></item>
+<item name='$Formula' summary='true' sign='true'><formula compiled='true'>
+igAFADQAMAAFAAcACgAEAAkABABpbmNvbUlkdGFyZ2V0RGF0ZWFyZWEkQ29uZmxpY3QkUkVGBAAE
+AAAAOAAFAAQARm9ybQEACABmcm1JbmNvbQoCBAAFAAQARm9ybQEABgAQjvsQk/wKAgQAHQIEAAMA
+BwAYABIACUwxUzRTNVM3UzhTMTBTMTFT
+</formula></item>
+<item name='$Collation' summary='true'>
+<rawitemdata type='2'>
+JQACAABEAGYAAAAHAJhmAAcACgBpbmNvbUlkdGFyZ2V0RGF0ZQ==
+</rawitemdata></item>
+<item name='$ViewFormat' summary='true' sign='true'>
+<rawitemdata type='5'>
+AQADAAAACAAAAFZDAQAHAAcAAAAAAFAAAQAACgAAAAAAAAAAAAICAAAAVkMAAAoACgAAAAAAUAAB
+AAAKAAEAAAAAAAAAAgIAAABWQwAABAAEAAAAAABQAAEAAAoAAAAAAAAAAAACAgAAAGluY29tSWRp
+bmNvbUlkdGFyZ2V0RGF0ZXRhcmdldERhdGVhcmVhYXJlYSYAAQAAAAEBAAkBAAAKAQEACgAAAQCt
+KwEAAQABAAAAAAAAAAAAV0MBAQQJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAAAAAAAAAAAA
+AAAAAFdDAQEACQAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAP//AAAAAAAAAAAAAAAAAABXQwEBAAkA
+AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAD//wAAAAAAAAAAAAAAAAAAQgAAAAAAAQD///8ABQD///8A
+AQAAAAAAAAAAAAAAAAABAP///wABAP///wAAAAEAAAAAAAEAAAAAAAEAAAAAAAAACAAAAAAAAQA=
+</rawitemdata></item>
+<item name='$Comment' sign='true'><text/></item>
+<item name='$DesignerVersion'><text>8.5.3</text></item>
 <item name='$SelQuery' sign='true'>
 <rawitemdata type='f'>
 gQYAAAAAif8bAAAAAAABAA8AZnJtSW5jb218EI77EJP8AA==
-</rawitemdata></item></view>
+</rawitemdata></item>
+<item name='$Flags'><text>PY</text></item></note>
 

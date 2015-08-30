@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core">
+	<!-- 選択された日を表示するパネル。バックエンドからはクラス名で参照する。 -->
+	<xp:panel id="dayInfo_container" styleClass="dayInfo_container"></xp:panel>
+</xp:view>

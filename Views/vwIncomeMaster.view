@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
-<note class='view' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.3'
- replicaid='49257E8900226E16'>
-<noteinfo noteid='656' unid='1FA10DE37CC78C0749257E89002536B7' sequence='4'>
+<note class='view' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.0'
+ replicaid='49257E6600452AF8'>
+<noteinfo noteid='56a' unid='1FA10DE37CC78C0749257E89002536B7' sequence='2'>
 <created><datetime>20150721T154628,39+09</datetime></created>
-<modified><datetime>20150721T154733,62+09</datetime></modified>
-<revised><datetime>20150721T154733,61+09</datetime></revised>
-<lastaccessed><datetime>20150721T154733,62+09</datetime></lastaccessed>
-<addedtofile><datetime>20150721T154628,40+09</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Admin/O=LotusLab</name></updatedby>
-<wassignedby><name>CN=Admin/O=LotusLab</name></wassignedby>
+<modified><datetime>20150816T231628,32+09</datetime></modified>
+<revised><datetime>20150816T231628,31+09</datetime></revised>
+<lastaccessed><datetime>20150816T231628,32+09</datetime></lastaccessed>
+<addedtofile><datetime>20150816T231628,30+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=admin maro/O=maro</name></updatedby>
+<wassignedby><name>CN=admin maro/O=maro</name></wassignedby>
 <item name='$FormulaClass' sign='true'><text>1</text></item>
 <item name='$TITLE' sign='true'><text>vwIncomeMaster|収入区分マスタ</text></item>
 <item name='$Index' sign='true'><text/></item>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note class='view' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.0'
+ replicaid='49257E6600452AF8'>
+<noteinfo noteid='89e' unid='17DE9FA8CE08D4FF49257EB000564211' sequence='12'>
+<created><datetime>20150830T004210,09+09</datetime></created>
+<modified><datetime>20150830T235009,63+09</datetime></modified>
+<revised><datetime>20150830T235009,62+09</datetime></revised>
+<lastaccessed><datetime>20150830T235009,63+09</datetime></lastaccessed>
+<addedtofile><datetime>20150830T004210,12+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=admin maro/O=maro</name></updatedby>
+<wassignedby><name>CN=admin maro/O=maro</name></wassignedby>
+<item name='$FormulaClass' sign='true'><text>1</text></item>
+<item name='$TITLE' sign='true'><text>(vwClndr)|vwClndr</text></item>
+<item name='$Index' sign='true'><text/></item>
+<item name='$Formula' summary='true' sign='true'><formula compiled='true'>
+ugACADQABABrZXlzBQAKAHRhcmdldERhdGVWAQEAAQAvAAEAAACEAwAAAAAAAAAAGEBfAgMAAgAa
+AAQAZGF0ZQUACgB0YXJnZXREYXRlAwAFADYAMQAGAAQABAAEAAgACQAEAGtleXNkYXRlYXJlYXNo
+b3BOYW1lJENvbmZsaWN0JFJFRgAEAAQAAAAkAAUABABGb3JtAQALAGZybVNwZW5kaW5nAAoCBAAE
+AAMABwAMAAUACTNTNFMA
+</formula></item>
+<item name='$Collation' summary='true'>
+<rawitemdata type='2'>
+HAACAABEgGYAAAAEAABmAAQABABrZXlzZGF0ZQ==
+</rawitemdata></item>
+<item name='$ViewFormat' summary='true' sign='true'>
+<rawitemdata type='5'>
+AQAEAAUACAAAAFZDAQAEAAQAQgAAAFAAAQAACgAAAAAAAAAAAAICAAAAVkMBAAQABAAcAAAAUAAB
+AAAKAAAAAAAAAAAAAgIAAABWQwAABAAEAAAAAABQAAEAAAoAAAAAAAAAAAACAgAAAFZDAAAIAAgA
+AAAAAFAAAQAACgAAAAAAAAAAAAICAAAAa2V5c2tleXNCAAIANAAEAGtleXMFAAoAdGFyZ2V0RGF0
+ZVYBAQABAC8AAQAAAIQDAAAAAAAAAAAYQF8CAwAHAAwABQAJMFMwRQBkYXRlZGF0ZRwAAgAaAAQA
+ZGF0ZQUACgB0YXJnZXREYXRlAwBhcmVhYXJlYXNob3BOYW1lc2hvcE5hbWUmAAEAAAABAQAJAQAA
+CgEBDgoAAAEArSsBAAEAAQAAAAAAAAAAAFdDAQEACQAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAP//
+AAAAAAAAAAAAAAAAAABXQwEBAAkAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAD//wAAAAAAAAAAAAAA
+AAAAV0MBAQAJAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA//8AAAAAAAAAAAAAAAAAAFdDAQEACQAA
+AAAAAAAAAAAAAAAAAAAAAAQAAAAAAP//AAAAAAAAAAAAAAAAAABCAAAAAAABAP///wAFAP///wAB
+AAAAAAAAAAAAAAAAAAEA////AAEA////AAAAAQAAAAAAAQAAAAAAAQAAAAAAAAAIAAAAAAABAFhD
+AEyAAQAAAAAAAQICAgEBAQEHBAMAAAAAAAAAAC8vIDo=
+</rawitemdata></item>
+<item name='$Comment' sign='true'><text>カレンダーページ用ビュー</text></item>
+<item name='$Flags'><text>PY</text></item>
+<item name='$WebFlags'><text>A</text></item>
+<item name='$DesignerVersion'><text>8.5.3</text></item>
+<item name='$SelQuery' sign='true'>
+<rawitemdata type='f'>
+gQYAAAAAif8XAAAAAAABAAsAZnJtU3BlbmRpbmcA
+</rawitemdata></item></note>
+
