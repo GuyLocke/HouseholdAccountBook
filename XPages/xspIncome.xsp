@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xp:view xmlns:xp="http://www.ibm.com/xsp/core" xmlns:xc="http://www.ibm.com/xsp/custom">
+	<xp:this.data>
+
+		<xp:dominoDocument var="incomeDocument" formName="frmIncome"
+			computeWithForm="onsave">
+			<xp:this.querySaveDocument><![CDATA[#{javascript:if(!incomeDocument.hasItem('incomeId')){
+	incomeDocument.replaceItemValue('incomeId', java.util.UUID.randomUUID().toString());
+}}]]></xp:this.querySaveDocument>
+		</xp:dominoDocument>
+	</xp:this.data>
 	<xp:this.resources>
 		<xp:styleSheet href="/jquery.mobile-1.4.5.min.css"></xp:styleSheet>
 		<xp:headTag tagName="script">
@@ -22,57 +31,108 @@
 			<xc:ccFooter xp:key="facet_3"></xc:ccFooter>
 			<xc:ccMenu xp:key="facet_1"></xc:ccMenu>
 			<xp:panel xp:key="facet_2">
-				<xp:label value="日付" for="incomeDate"></xp:label>
-				<xp:inputText id="incomeDate" type="date">
-				</xp:inputText>
-				<xp:label value="地域" for="incomeArea"></xp:label>
-				<xp:inputText id="incomeArea" type="text">
-				</xp:inputText>
-				<span>明細</span>
-				<ul data-role="listview" data-inset="true">
-					<xp:repeat id="incomeDetails" rows="99" disableOutputTag="true"
-						var="incomeDetail">
-						<xp:this.value><![CDATA[#{javascript://ダミーデータ
-return [
-	{"incomeType":"給与","amount": 999999},
-	{"incomeType":"出張精算", "amount": 30000}
-];}]]></xp:this.value>
-						<li>
-							<a href="#incomeDetail">
-								<p>
-									<xp:text escape="true" id="computedField1"
-										value="#{javascript:incomeDetail.incomeType}">
-									</xp:text>
-								</p>
-								<p class="ui-li-aside">
-									<xp:text escape="true"
-										id="computedField2"
-										value="#{javascript:incomeDetail.amount;}">
-										<xp:this.converter>
-											<xp:convertNumber
-												pattern="￥ #,##0">
-											</xp:convertNumber>
-										</xp:this.converter>
-									</xp:text>
-								</p>
+				<div data-role="fieldcontain">
+					<xp:label value="日付*" for="incomeDate"></xp:label>
+					<xp:inputText id="incomeDate" type="date"
+						value="#{incomeDocument.targetDate}" required="true">
+						<xp:this.validators>
+							<xp:validateRequired message="日付は必須です。"></xp:validateRequired>
+						</xp:this.validators>
+						<xp:this.converter>
+							<xp:convertDateTime type="date">
+								<xp:this.pattern><![CDATA[${javascript: if(incomeDocument.isEditable()){
+ 	return 'yyyy-MM-dd'
+ }else{
+ 	return 'yyyy/MM/dd'
+ }}]]></xp:this.pattern>
+							</xp:convertDateTime>
+						</xp:this.converter>
+						<xp:this.defaultValue><![CDATA[#{javascript:var today = new Date();
+
+return I18n.toString(today, 'yyyy-MM-dd');}]]></xp:this.defaultValue>
+					</xp:inputText>
+				</div>
+				<div data-role="fieldcontain">
+					<xp:label value="地域" for="incomeArea"></xp:label>
+					<xp:inputText id="incomeArea" type="text"
+						value="#{incomeDocument.area}">
+					</xp:inputText>
+				</div>
+				<div data-role="fieldcontain">
+					<xp:label value="明細"></xp:label>
+					<ul data-role="listview" data-inset="true">
+						<xp:repeat id="incomeDetails" rows="99"
+							disableOutputTag="true" var="incomeDetail">
+
+							<xp:this.value><![CDATA[#{javascript:
+(function(){
+	var incomeId = incomeDocument.getItemValueString('incomId');
+	var detailView = database.getView('vwIncomeDetails');
+	var detailList = [];
+	var docList = detailView.getAllDocumentsByKey(incomeId,true);
+	var doc = docList.getFirstDocument();
+	while(doc != null){
+		detailList.push(
+			{
+				"incomeDetailId": doc.getItemValueString('incomeDetailId'),
+				"incomeType": doc.getItemValueString('incomeType'),
+				"amount": doc.getItemValueInteger('amount')
+			}
+		);
+		print("doc:" + doc);
+		doc = docList.getNextDocument(doc);
+	}
+	return detailList;
+})();}]]></xp:this.value>
+							<li>
+								<a
+									href="#incomeDetail?detailId=#{javascript: incomeDetail.incomeDetailId}">
+									<p>
+										<xp:text escape="true" id="computedField1"
+											value="#{javascript:incomeDetail.incomeType;}">
+										</xp:text>
+									</p>
+									<p class="ui-li-aside">
+										<xp:text escape="true" id="computedField2"
+											value="#{javascript:incomeDetail.amount;}">
+											<xp:this.converter>
+												<xp:convertNumber pattern="￥ #,##0">
+												</xp:convertNumber>
+											</xp:this.converter>
+										</xp:text>
+									</p>
+								</a>
+							</li>
+						</xp:repeat>
+						<li data-icon="plus">
+							<a href="#incomeDetail?newDetail">
+								<span>追加</span>
 							</a>
 						</li>
-					</xp:repeat>
-					<li data-icon="plus">
-						<xp:link id="addDetail">
-							<span>追加</span>
-						</xp:link>
-					</li>
-				</ul>
+					</ul>
+				</div>
 				<xp:link id="saveIncome"
 					styleClass="ui-btn ui-btn-inline ui-icon-check ui-btn-icon-left">
 					<span>登録</span>
+					<xp:eventHandler event="onclick" submit="true"
+						refreshMode="complete">
+						<xp:this.action>
+
+							<xp:actionGroup>
+								<xp:saveDocument var="incomeDocument"></xp:saveDocument>
+
+								<xp:openPage name="/xspIncome.xsp" target="openDocument"
+									documentId="#{javascript:incomeDocument.getDocument().getUniversalID();}">
+								</xp:openPage>
+							</xp:actionGroup>
+						</xp:this.action>
+					</xp:eventHandler>
 				</xp:link>
 				<xp:link id="cancelIncome">
 					<span>キャンセル</span>
 				</xp:link>
 
-			</xp:panel>			
+			</xp:panel>
 		</xp:this.facets>
 	</xc:ccPageTemplate>
 </xp:view>
