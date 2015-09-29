@@ -17,35 +17,81 @@
 			</xp:this.attributes>
 		</xp:headTag>
 	</xp:this.resources>
+
+	<xp:this.data>
+		<xp:dominoDocument var="document1" formName="frmIncomeDetail"
+			computeWithForm="both">
+		</xp:dominoDocument>
+	</xp:this.data>
 	
 	<xc:ccPageTemplate>
 		<xp:this.facets>
 			<xc:ccFooter xp:key="facet_3"></xc:ccFooter>
 			<xc:ccMenu xp:key="facet_1"></xc:ccMenu>
 			<xp:panel xp:key="facet_2">
+				<xp:table style="color:rgb(255,0,0)" rendered="false">
+					<xp:tr>
+						<xp:td>
+							<xp:label value="income id:" id="incomeId_Label1" for="incomeId1">
+							</xp:label>
+						</xp:td>
+						<xp:td>
+							<xp:inputText value="#{document1.incomeId}" id="incomeId1">
+								<xp:this.defaultValue><![CDATA[#{javascript:context.getUrl().getParameter("parentId");}]]></xp:this.defaultValue>
+							</xp:inputText>
+						</xp:td>
+					</xp:tr>
+					<xp:tr>
+						<xp:td>
+							<xp:label value="income detail id:" id="incomeDetailId_Label2"
+								for="incomeDetailId1"></xp:label>
+						</xp:td>
+						<xp:td>
+							<xp:inputText value="#{document1.incomeDetailId}"
+								id="incomeDetailId1"></xp:inputText>
+						</xp:td>
+					</xp:tr>
+				</xp:table>
 				<xp:label value="分類" for="incomeType"></xp:label>
-				<xp:comboBox id="incomeType">
+				<xp:comboBox id="incomeType"
+					value="#{document1.incomeType}">
 					<xp:selectItems>
-						<xp:this.value><![CDATA[#{javascript:
-//マスタから取得するように変更
-return [
-	"給与|001",
-	"手当等|002",
-	"太陽光発電収入|003"
-]}]]></xp:this.value>
+						<xp:this.value><![CDATA[#{javascript://分類マスタより取得
+var temp = @DbColumn("", "vwIncomeMaster", 2);
+if ( temp == null ){
+	return "";
+}else{
+	return temp;
+}}]]></xp:this.value>
 					</xp:selectItems>
 				</xp:comboBox>
 				<xp:label value="金額" for="incomeType"></xp:label>
-				<xp:inputText id="incomeAmount" type="number"></xp:inputText>
+				<xp:inputText id="incomeAmount" type="number"
+					value="#{document1.amount}" style="text-align:right">
+					<xp:this.converter>
+						<xp:convertNumber pattern="#,##0"></xp:convertNumber>
+					</xp:this.converter>
+				</xp:inputText>
 				<xp:link id="saveIncome"
 					styleClass="ui-btn ui-btn-inline ui-icon-check ui-btn-icon-left">
 					<span>登録</span>
+					<xp:eventHandler event="onclick" submit="true"
+						refreshMode="complete">
+						<xp:this.action>
+
+							<xp:actionGroup>
+								<xp:saveDocument var="document1"></xp:saveDocument>
+								<xp:changeDocumentMode mode="readOnly"
+									var="document1">
+								</xp:changeDocumentMode>
+							</xp:actionGroup>
+						</xp:this.action>
+					</xp:eventHandler>
 				</xp:link>
 				<xp:link id="cancelIncome">
 					<span>キャンセル</span>
 				</xp:link>
 			</xp:panel>
-			
 		</xp:this.facets>
 	</xc:ccPageTemplate>
 </xp:view>

@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note class='form' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.0'
+ replicaid='49257ECF002686C1'>
+<noteinfo noteid='4fa' unid='751FAD74AB11FE7E49257E660026387A' sequence='10'>
+<created><datetime>20150616T155728,26+09</datetime></created>
+<modified><datetime>20150929T160348,73+09</datetime></modified>
+<revised><datetime>20150929T160348,72+09</datetime></revised>
+<lastaccessed><datetime>20150929T160348,73+09</datetime></lastaccessed>
+<addedtofile><datetime>20150929T160225,28+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Administrator/O=DEV</name></updatedby>
+<wassignedby><name>CN=Administrator/O=DEV</name></wassignedby>
+<item name='account' summary='false' sign='true'><number>0</number></item>
+<item name='$HTMLCode' sign='true'>
+<rawitemdata type='1'>
+X/8QAAIADwAHAAAAAAAAAA==
+</rawitemdata></item>
+<item name='$TITLE'><text>frmIncomeDetail</text></item>
+<item name='$Comment' sign='true'><text>収入明細文書</text></item>
+<item name='$Info' sign='true'>
+<rawitemdata type='1'>
+hhgBAIAAAAAAgAAAAQABAP///wAQAAAA
+</rawitemdata></item>
+<item name='$SubForms'><text>sbfmCommonItem</text></item>
+<item name='$SubForm_RepIDs' sign='true'><text>0000000000000000</text></item>
+<item name='$Flags'><text/></item>
+<item name='$DesignerVersion'><text>8.5.3</text></item>
+<item name='$Fonts'>
+<rawitemdata type='1'>
+i/8oAAEABTZNZWlyeW8gVUkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</rawitemdata></item>
+<item name='$$ScriptName' summary='false' sign='true'><text>収入明細文書</text></item>
+<item name='incomeDetailId' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='incomeId' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='incomeType' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='amount' summary='false'><number>0</number></item>
+<item name='$Fields'><textlist><text>amount</text><text>incomeType</text><text
+>incomeId</text><text>incomeDetailId</text></textlist></item>
+<item name='$Body' sign='true'>
+<rawitemdata type='1'>
+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
+</rawitemdata></item></note>
+
