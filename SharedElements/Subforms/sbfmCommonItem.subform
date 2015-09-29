@@ -1,20 +1,43 @@
 <?xml version='1.0' encoding='utf-8'?>
-<subform name='sbfmCommonItem' xmlns='http://www.lotus.com/dxl' version='9.0'
- maintenanceversion='1.3' replicaid='49257E660026021D' designerversion='8.5.3'
- renderpassthrough='true'>
-<noteinfo noteid='21a' unid='09685D28DC44D91E49257E6600258001' sequence='10'>
+<note class='form' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.3'
+ replicaid='49257EAC00179F23'>
+<noteinfo noteid='186' unid='09685D28DC44D91E49257E6600258001' sequence='9'>
 <created><datetime>20150616T154936,01+09</datetime></created>
-<modified><datetime>20150616T160916,68+09</datetime></modified>
-<revised><datetime>20150616T160916,67+09</datetime></revised>
-<lastaccessed><datetime>20150616T160916,68+09</datetime></lastaccessed>
-<addedtofile><datetime>20150616T155510,77+09</datetime></addedtofile></noteinfo>
+<modified><datetime>20150929T152451,49+09</datetime></modified>
+<revised><datetime>20150929T152451,48+09</datetime></revised>
+<lastaccessed><datetime>20150929T152451,49+09</datetime></lastaccessed>
+<addedtofile><datetime>20150825T132009,07+09</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Kenji Ebihara/OU=R/O=RSI</name></updatedby>
 <wassignedby><name>CN=Kenji Ebihara/OU=R/O=RSI</name></wassignedby>
-<body><richtext>
-<pardef id='1' tabs='L2.7556in' newpage='true'/>
-<par def='1'>UNID：	<computedtext><code event='value'><formula>@Text(@DocumentUniqueID)</formula></code></computedtext></par>
-<pardef id='2' tabs='L2.7556in'/>
-<par def='2'>CreateDate:	<computedtext><code event='value'><formula>@Text(@Created; "D0T0")</formula></code></computedtext></par>
-<par def='2'>ModifedDate:	<computedtext><code event='value'><formula>@Text(@Modified; "D0T0")</formula></code></computedtext></par></richtext></body>
-<item name='$$ScriptName' summary='false' sign='true'><text>sbfmCommonItem</text></item></subform>
+<item name='$HTMLCode' sign='true'>
+<rawitemdata type='1'>
+X/8QAAIADwAHAAAAAAAAAA==
+</rawitemdata></item>
+<item name='$TITLE'><text>sbfmCommonItem</text></item>
+<item name='$Info' sign='true'>
+<rawitemdata type='1'>
+hhgBAIAAAAAAgAAAAQABAP///wAQAAAA
+</rawitemdata></item>
+<item name='$Flags'><text>CU3xA</text></item>
+<item name='$DesignerVersion'><text>8.5.3</text></item>
+<item name='$$ScriptName' summary='false' sign='true'><text>sbfmCommonItem</text></item>
+<item name='UserId' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='$Fields'><text>UserId</text></item>
+<item name='$Body' sign='true'>
+<rawitemdata type='1'>
+gQKC/1oAAQAAAAAAAAAAAKAFAACgBQEAgA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAEBAAAAAJSHAAAAAAAAAAAAAAAAAQAAAAQAAACDBAEAhf8QAAEAAApVTklEEIFGCd0G
+AACt/6n/JAABABgABAAYABgAAAAKAJAAVgEDAAcADAAFAAkwUzBFAIX/CAABAAAKqgLeBgAArgCF
+/wgAAQAACoECgv9aAAIAAAAAAAAAAACgBQAAoAUBAIAPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAQAAAACUhwAAAAAAAAAAAAAAAAEAAAAEAAAAgwQCAIX/FAABAAAKQ3Jl
+YXRlRGF0ZToJ3QYAAK3/qf8qAAEAGAAEAB4AHgAAABIAaQABAAQARDBUMFYCAwAHAAoAAwAJNFMA
+hf8IAAEAAAqqAt4GAACuAIX/CAABAAAKgQKDBAIAhf8VAAEAAApNb2RpZmVkRGF0ZToJAN0GAACt
+/6n/KgABABgABAAeAB4AAAASAKQAAQAEAEQwVDBWAgMABwAKAAMACTRTAIX/CAABAAAKqgLeBgAA
+rgCF/wgAAQAACoECgwQCAIX/EAABAAAKVXNlcklkOgndBgAAiv/+/1AAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAB4AHgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAIr/NACOAAAHADACAAAAAAAAAgEAAAoKAAAAAAAAAAYAAAAAAAoAAAAIAPQAAwBVc2VySWTe
+BgAAiv+F/wgAAQAACg==
+</rawitemdata></item></note>
 
