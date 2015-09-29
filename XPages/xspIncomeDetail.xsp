@@ -19,8 +19,15 @@
 	</xp:this.resources>
 
 	<xp:this.data>
-		<xp:dominoDocument var="document1" formName="frmIncomeDetail"
-			computeWithForm="both">
+		<xp:dominoDocument var="incomeDetailDocument"
+			formName="frmIncomeDetail" computeWithForm="onsave">
+			<xp:this.querySaveDocument><![CDATA[#{javascript:if(!incomeDetailDocument.hasItem('incomeId')){
+	var incomeId = context.getUrl().getParameter("incomeId");
+	incomeDetailDocument.replaceItemValue('incomeId', incomeId);
+}
+if(!incomeDetailDocument.hasItem('incomeDetailId')){
+	incomeDetailDocument.replaceItemValue('incomeDetailId', java.util.UUID.randomUUID().toString());
+}}]]></xp:this.querySaveDocument>
 		</xp:dominoDocument>
 	</xp:this.data>
 	
@@ -29,32 +36,9 @@
 			<xc:ccFooter xp:key="facet_3"></xc:ccFooter>
 			<xc:ccMenu xp:key="facet_1"></xc:ccMenu>
 			<xp:panel xp:key="facet_2">
-				<xp:table style="color:rgb(255,0,0)" rendered="false">
-					<xp:tr>
-						<xp:td>
-							<xp:label value="income id:" id="incomeId_Label1" for="incomeId1">
-							</xp:label>
-						</xp:td>
-						<xp:td>
-							<xp:inputText value="#{document1.incomeId}" id="incomeId1">
-								<xp:this.defaultValue><![CDATA[#{javascript:context.getUrl().getParameter("parentId");}]]></xp:this.defaultValue>
-							</xp:inputText>
-						</xp:td>
-					</xp:tr>
-					<xp:tr>
-						<xp:td>
-							<xp:label value="income detail id:" id="incomeDetailId_Label2"
-								for="incomeDetailId1"></xp:label>
-						</xp:td>
-						<xp:td>
-							<xp:inputText value="#{document1.incomeDetailId}"
-								id="incomeDetailId1"></xp:inputText>
-						</xp:td>
-					</xp:tr>
-				</xp:table>
 				<xp:label value="分類" for="incomeType"></xp:label>
 				<xp:comboBox id="incomeType"
-					value="#{document1.incomeType}">
+					value="#{incomeDetailDocument.incomeType}">
 					<xp:selectItems>
 						<xp:this.value><![CDATA[#{javascript://分類マスタより取得
 var temp = @DbColumn("", "vwIncomeMaster", 2);
@@ -67,7 +51,7 @@ if ( temp == null ){
 				</xp:comboBox>
 				<xp:label value="金額" for="incomeType"></xp:label>
 				<xp:inputText id="incomeAmount" type="number"
-					value="#{document1.amount}" style="text-align:right">
+					value="#{incomeDetailDocument.amount}" style="text-align:right">
 					<xp:this.converter>
 						<xp:convertNumber pattern="#,##0"></xp:convertNumber>
 					</xp:this.converter>
@@ -80,9 +64,12 @@ if ( temp == null ){
 						<xp:this.action>
 
 							<xp:actionGroup>
-								<xp:saveDocument var="document1"></xp:saveDocument>
+								<xp:saveDocument
+									var="incomeDetailDocument">
+								</xp:saveDocument>
+
 								<xp:changeDocumentMode mode="readOnly"
-									var="document1">
+									var="incomeDetailDocument">
 								</xp:changeDocumentMode>
 							</xp:actionGroup>
 						</xp:this.action>
