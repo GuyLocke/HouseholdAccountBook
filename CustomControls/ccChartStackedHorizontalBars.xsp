@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core">
+
+	<xp:this.resources>
+		<xp:script src="/amd_stop.js" clientSide="true"></xp:script>
+		<xp:script src="/flotr2.min.js" clientSide="true"></xp:script>
+		<xp:script src="/amd_start.js" clientSide="true"></xp:script>
+		<xp:script src="/chartStackedHorizontalBars.jss" clientSide="false"></xp:script>
+	</xp:this.resources>
+	<xp:this.beforePageLoad><![CDATA[#{javascript:getChartdata()}]]></xp:this.beforePageLoad>
+	<xp:div id="chartStackedHorizontalBars"
+		style="width:600px;height:200px;">
+	</xp:div>
+	<xp:eventHandler event="onClientLoad" submit="false">
+		<xp:this.script><![CDATA[(function drawChartStackedHorizontalBars(container) {
+
+	//data
+	#{javascript:viewScope.chartdataStackedHorizontalBars};
+
+	//draw
+	graph = Flotr.draw(container, [{
+		data: d1,
+		label: '食品'
+	}, {
+		data: d2,
+		label: '住居費'
+	}, {
+		data: d3,
+		label: '光熱費'
+	}], {
+		title: "支出レポート",
+		legend: {
+			position: "ne",
+			backgroundColor: '#D2E8FF' // Light blue 
+		},
+		bars: {
+			show: true,
+			stacked: true,
+			horizontal:true,
+			barWidth: 0.5,
+			lineWidth: 0,
+			shadowSize: 0
+		},
+		xaxis: {
+		   min:0
+		},
+		yaxis: {
+			min:0,
+			//autoscale: false,
+			title: "2015年9月",
+			showLabels: false
+		},
+		mouse: {
+			track: true
+		},
+		grid: {
+			verticalLines: true,
+			horizontalLines: false
+		}
+	});
+})(document.getElementById("#{id:chartStackedHorizontalBars}"));
+]]></xp:this.script>
+	</xp:eventHandler>
+</xp:view>
