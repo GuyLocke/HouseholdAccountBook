@@ -1,22 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.3" replicaid="49257E66002304FB" version="9.0" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="21e" sequence="9" unid="C218F4453FBFD60B49257E6600274740">
-<created><datetime>20150616T160901,44+09</datetime></created>
-<modified><datetime>20150616T161434,75+09</datetime></modified>
-<revised><datetime>20150616T161434,74+09</datetime></revised>
-<lastaccessed><datetime>20150616T161434,75+09</datetime></lastaccessed>
-<addedtofile><datetime>20150616T160901,46+09</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Admin/O=LotusLab</name></updatedby>
-<wassignedby><name>CN=Admin/O=LotusLab</name></wassignedby>
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.4" replicaid="49257E62002A0AEA" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="4de" sequence="27" unid="F44DECE31006792049257E6600831EF9">
+<created><datetime>20150617T085211,45+09</datetime></created>
+<modified><datetime>20150930T100601,98+09</datetime></modified>
+<revised><datetime>20150930T100601,96+09</datetime></revised>
+<lastaccessed><datetime>20150930T100601,96+09</datetime></lastaccessed>
+<addedtofile><datetime>20150617T085211,46+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Domino Administrator/O=EFMIYO</name></updatedby>
+<wassignedby><name>CN=Domino Administrator/O=EFMIYO</name></wassignedby>
 <item name="$Flags"><text>gC~4;</text></item>
 <item name="$TITLE"><text>ccMenu.xsp</text></item>
-<item name="$DesignerVersion"><text>8.5</text></item>
-
-
 
 
 
 
 
 <item name="$FileNames" sign="true"><text>ccMenu.xsp</text></item>
+
+
+<item name="$DesignerVersion"><text>8.5</text></item>
 
 </note>
