@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <note class='view' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.0'
  replicaid='49257E6600452AF8'>
-<noteinfo noteid='89e' unid='17DE9FA8CE08D4FF49257EB000564211' sequence='12'>
+<noteinfo noteid='89e' unid='17DE9FA8CE08D4FF49257EB000564211' sequence='18'>
 <created><datetime>20150830T004210,09+09</datetime></created>
-<modified><datetime>20150830T235009,63+09</datetime></modified>
-<revised><datetime>20150830T235009,62+09</datetime></revised>
-<lastaccessed><datetime>20150830T235009,63+09</datetime></lastaccessed>
+<modified><datetime>20151004T162205,67+09</datetime></modified>
+<revised><datetime>20151004T162205,66+09</datetime></revised>
+<lastaccessed><datetime>20151004T162205,67+09</datetime></lastaccessed>
 <addedtofile><datetime>20150830T004210,12+09</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=admin maro/O=maro</name></updatedby>
 <wassignedby><name>CN=admin maro/O=maro</name></wassignedby>
@@ -13,10 +13,10 @@
 <item name='$TITLE' sign='true'><text>(vwClndr)|vwClndr</text></item>
 <item name='$Index' sign='true'><text/></item>
 <item name='$Formula' summary='true' sign='true'><formula compiled='true'>
-ugACADQABABrZXlzBQAKAHRhcmdldERhdGVWAQEAAQAvAAEAAACEAwAAAAAAAAAAGEBfAgMAAgAa
+3gACADQABABrZXlzBQAKAHRhcmdldERhdGVWAQEAAQAvAAEAAACEAwAAAAAAAAAAGEBfAgMAAgAa
 AAQAZGF0ZQUACgB0YXJnZXREYXRlAwAFADYAMQAGAAQABAAEAAgACQAEAGtleXNkYXRlYXJlYXNo
-b3BOYW1lJENvbmZsaWN0JFJFRgAEAAQAAAAkAAUABABGb3JtAQALAGZybVNwZW5kaW5nAAoCBAAE
-AAMABwAMAAUACTNTNFMA
+b3BOYW1lJENvbmZsaWN0JFJFRgAEAAQAAABAAAUABABGb3JtAQAJAGZybUluY29tZQAKAgQABQAE
+AEZvcm0BAAsAZnJtU3BlbmRpbmcACgIEAB0CBAADAAcAFAAOAAkzUzRTNlM3UzlTMTBT
 </formula></item>
 <item name='$Collation' summary='true'>
 <rawitemdata type='2'>
@@ -42,6 +42,6 @@ AEyAAQAAAAAAAQICAgEBAQEHBAMAAAAAAAAAAC8vIDo=
 <item name='$DesignerVersion'><text>8.5.3</text></item>
 <item name='$SelQuery' sign='true'>
 <rawitemdata type='f'>
-gQYAAAAAif8XAAAAAAABAAsAZnJtU3BlbmRpbmcA
+gQYAAAAAif8iAAAAAAACAAkACwBmcm1JbmNvbWVmcm1TcGVuZGluZw==
 </rawitemdata></item></note>
 

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core" rendered="false">
+	<xp:this.afterRenderResponse><![CDATA[#{javascript:var exCon = facesContext.getExternalContext(),
+	writer   = facesContext.getResponseWriter(),
+	response = exCon.getResponse(),
+	params  = exCon.getRequestParameterMap(),
+	nView:NotesView = database.getView("vwClndr"),
+	cView:NotesView = database.getView("vwClndrChild"),
+	docs:NotesDocumentCollection,
+	cDocs:NotesDocumentCollection,
+	nDoc:NotesDocument,
+	cDoc:NotesDocument,
+	key = params.get('keys'),
+	result={},
+	items=[],
+	item={},
+	dt:java.util.Date,
+	unid,
+	total,
+	income,
+	outgoing,
+	//キー用フォーマット
+	formatter:java.text.DateFormat = new java.text.SimpleDateFormat("yyyyMM"),
+	//日付用
+	formatter2:java.text.DateFormat = new java.text.SimpleDateFormat("yyyy-MM-dd"),
+	dburl = database.getHttpURL().slice(0,('?opendatabase'.length)*(-1));
+	url_income   = dburl + '/xspIncome.xsp',
+	url_outgoing = dburl + '/xspSpend.xsp';
+try{
+	if(null == key){
+		throw {message:"Invalid Parameter!!"};
+	}
+
+	response.setContentType( "application/json" );
+	response.setHeader( "Cache-Control", "no-cache" );
+
+	income = 0,
+	outgoing = 0,
+
+	docs = nView.getAllDocumentsByKey(key);
+
+	for(var i = 1; i<= docs.getCount(); i++){
+		total=0,
+		item={};
+	
+		nDoc = docs.getNthDocument(i);
+
+		unid=nDoc.getUniversalID();
+	
+		item.unid = unid;
+		if(nDoc.hasItem("targetDate")){
+			dt = nDoc.getItemValueDateTimeArray("targetDate").get(0).toJavaDate();
+			item.keys = formatter.format(dt);
+			item.date = formatter2.format(dt);
+		}
+		if(nDoc.getItemValueString("form") === "frmIncom"){
+			item.type = 'income';
+			item.shopName = '(収入)';
+			item.url = url_income + '?openxpage&documentId=' + unid;
+		}else{
+			item.type = 'outgoing';
+			item.shopName = nDoc.getItemValueString("shopName");
+			item.url = url_outgoing + '?openxpage&documentId=' + unid;
+		}
+		item.area = nDoc.getItemValueString("area");
+		
+		cDocs = cView.getAllDocumentsByKey(unid);
+		for(var j = 1; j<= cDocs.getCount(); j++){
+			cDoc = cDocs.getNthDocument(j);
+			if(cDoc.getItemValueString("Form") === "frmIncomDetail"){
+				total += cDoc.getItemValueInteger("amount");
+				income+= cDoc.getItemValueInteger("amount");
+			}
+			if(cDoc.getItemValueString("Form") === "frmSpendingDetail"){
+				total    += cDoc.getItemValueInteger("totalPrice");
+				outgoing += cDoc.getItemValueInteger("totalPrice");
+			}
+		}
+	
+		item.total = total;
+		item.year = key.slice(0,4);
+		item.month = key.slice(-2);
+
+		items.push(item);
+
+		nDoc.recycle();
+	};
+	result ={
+		income:income,
+		outgoing:outgoing,
+		items:items
+	};
+	writer.write(toJson(result));
+
+}catch(e){
+	if(!e.hasOwnProperty('message')){
+		e = {message:e.toStirng()};
+	}
+	writer.write(toJson(e));
+
+}finally{
+	if(null != writer){
+		writer.endDocument();
+	}
+	facesContext.responseComplete();
+}
+
+
+
+}]]></xp:this.afterRenderResponse></xp:view>
