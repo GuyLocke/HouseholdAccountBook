@@ -155,7 +155,7 @@ p {
 .cal1 .clndr .clndr-table .header-days {
 	height: 30px;
 	font-size: 10px;
-	background: #0D70A6;
+	background: #ccc;
 }
 
 .cal1 .clndr .clndr-table .header-days .header-day {
@@ -163,11 +163,15 @@ p {
 	text-align: center;
 	border-left: 1px solid #000000;
 	border-top: 1px solid #000000;
-	color: #fff;
+	color: #000;
 }
 
+.cal1 .clndr .clndr-table .header-days .header-day:first-child {
+	color:#F00;
+}
 .cal1 .clndr .clndr-table .header-days .header-day:last-child {
 	border-right: 1px solid #000000;
+	color:#00F;
 }
 
 .cal1 .clndr .clndr-table tr { /*
@@ -232,6 +236,23 @@ p {
 	text-align: right;
 }
 
+.cal1 .clndr .clndr-table tr .saturday .day-contents{
+	color:#00f;
+}
+.cal1 .clndr .clndr-table tr .sunday .day-contents{
+	color:#f00;
+}
+.cal1 .clndr .clndr-table tr .holiday .day-contents{
+	color:#f00;
+}
+.cal1 .clndr .clndr-table tr .day .day-contents .day-outgoing{
+	color:#f00;
+	font-weight:bold;
+}
+.cal1 .clndr .clndr-table tr .day .day-contents .day-income{
+	color:#00f;
+	font-weight:bold;
+}
 .cal1 .clndr .clndr-table tr .empty,.cal1 .clndr .clndr-table tr .adjacent-month,.cal1 .clndr .clndr-table tr .my-empty,.cal1 .clndr .clndr-table tr .my-adjacent-month
 	{
 	border-left: 1px solid #000000;
