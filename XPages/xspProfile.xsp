@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core"
+	xmlns:xc="http://www.ibm.com/xsp/custom">
+	<xp:this.data>
+		<xp:dominoDocument var="profileDocument"
+			formName="frmProfile">
+		</xp:dominoDocument>
+	</xp:this.data>
+	<xp:this.resources>
+		<xp:styleSheet href="/jquery.mobile-1.4.5.min.css"></xp:styleSheet>
+		<xp:headTag tagName="script">
+			<xp:this.attributes>
+				<xp:parameter name="type" value="text/javascript"></xp:parameter>
+				<xp:parameter name="src" value="jquery-1.11.3.min.js">
+				</xp:parameter>
+			</xp:this.attributes>
+		</xp:headTag>
+		<xp:headTag tagName="script">
+			<xp:this.attributes>
+				<xp:parameter name="type" value="text/javascript"></xp:parameter>
+				<xp:parameter name="src"
+					value="jquery.mobile-1.4.5.min.js">
+				</xp:parameter>
+			</xp:this.attributes>
+		</xp:headTag>
+	</xp:this.resources>
+	<xc:ccPageTemplate>
+		<xp:this.facets>
+			<xp:panel xp:key="facet_2">
+				<xp:panel>
+					<xp:button value="保存" id="button1"><xp:eventHandler event="onclick" submit="true" refreshMode="complete">
+	<xp:this.action>
+
+		<xp:actionGroup>
+			<xp:confirm message="保存します。よろしいですか？"></xp:confirm>
+			<xp:save name="/xspCalendar.xsp"></xp:save>
+		</xp:actionGroup>
+	</xp:this.action></xp:eventHandler></xp:button></xp:panel>
+				<xp:table>
+					<xp:tr>
+						<xp:td>
+							<xp:label id="profFamily_Label1" for="profFamily1" value="家族構成">
+							</xp:label>
+						</xp:td>
+						<xp:td>
+							<xp:inputText
+								value="#{profileDocument.profFamily}" id="profFamily1">
+							</xp:inputText>
+						</xp:td>
+					</xp:tr>
+					<xp:tr>
+						<xp:td>
+							<xp:label value="写真"
+								id="profPhoto_Label1" for="profPhoto1">
+							</xp:label>
+						</xp:td>
+						<xp:td>
+							
+						<xp:fileUpload id="fileUpload1" mimetype="image/jpeg" useUploadname="false" filename="profile.jpg" value="#{profileDocument.profPhoto}"></xp:fileUpload></xp:td>
+					</xp:tr>
+					<xp:tr>
+						<xp:td>
+							<xp:label value="年齢"
+								id="profAge_Label1" for="profAge1">
+							</xp:label></xp:td>
+						<xp:td>
+							<xp:inputText
+								value="#{profileDocument.profAge}" id="profAge1">
+								<xp:this.converter>
+									<xp:convertNumber type="number"></xp:convertNumber>
+								</xp:this.converter>
+							</xp:inputText>
+						</xp:td>
+					</xp:tr>
+					<xp:tr>
+						<xp:td>
+							<xp:label value="性別"
+								id="profSex_Label1" for="profSex1">
+							</xp:label>
+						</xp:td>
+						<xp:td>
+
+						<xp:radioGroup id="radioGroup1"
+							value="#{profileDocument.profSex}" defaultValue="0">
+							<xp:this.converter>
+								<xp:convertNumber type="number"
+									integerOnly="true">
+								</xp:convertNumber>
+							</xp:this.converter>
+							<xp:selectItem itemLabel="男性" itemValue="1"></xp:selectItem>
+							<xp:selectItem itemLabel="女性" itemValue="2"></xp:selectItem>
+							<xp:selectItem itemLabel="その他" itemValue="0"></xp:selectItem>
+						</xp:radioGroup></xp:td>
+					</xp:tr>
+					<xp:tr>
+						<xp:td>
+							<xp:label value="地方"
+								id="profArea_Label1" for="profArea1">
+							</xp:label>
+						</xp:td>
+						<xp:td>
+							
+						<xp:listBox id="listBox1">
+							<xp:selectItem itemLabel="北海道"></xp:selectItem>
+							<xp:selectItem itemLabel="東北地方"></xp:selectItem>
+							<xp:selectItem itemLabel="関東地方"></xp:selectItem>
+							<xp:selectItem itemLabel="中部地方"></xp:selectItem>
+							<xp:selectItem itemLabel="近畿地方"></xp:selectItem>
+							<xp:selectItem itemLabel="中国地方"></xp:selectItem>
+							<xp:selectItem itemLabel="四国地方"></xp:selectItem>
+							<xp:selectItem itemLabel="九州沖縄地方"></xp:selectItem>
+						</xp:listBox></xp:td>
+					</xp:tr>
+					<xp:tr>
+						<xp:td>
+							<xp:label value="自慢文書？"
+								id="profProud_Label1" for="profProud1">
+							</xp:label>
+						</xp:td>
+						<xp:td>
+							<xp:inputText
+								value="#{profileDocument.profProud}" id="profProud1">
+								<xp:this.converter>
+									<xp:convertNumber></xp:convertNumber>
+								</xp:this.converter>
+							</xp:inputText>
+						</xp:td>
+					</xp:tr>
+				</xp:table></xp:panel>
+			<xc:ccFooter xp:key="facet_3"></xc:ccFooter>
+
+			<xc:ccMenu xp:key="facet_1"></xc:ccMenu>
+		</xp:this.facets>
+	</xc:ccPageTemplate>
+</xp:view>

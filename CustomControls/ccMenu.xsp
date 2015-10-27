@@ -3,11 +3,26 @@
 	<div data-role="navbar">
 		<ul>
 			<li>
-				<xp:link escape="true" id="link1" value="/xspSample1.xsp" text="サンプル１"></xp:link></li>
+				<xp:link escape="true" id="link1"
+					value="/xspCalendar.xsp" text="トップ">
+
+				</xp:link>
+			</li>
 			<li>
-				<xp:link escape="true" text="サンプル２" id="link2" value="/xspSample2.xsp"></xp:link></li>
-			<li><a href="#">工事中</a></li>
-			<li><a href="#">工事中</a></li>
+				<xp:link escape="true" text="支出" id="link2"
+					value="xspSpending">
+				</xp:link>
+			</li>
+			<li>
+				<xp:link escape="true" text="収入" id="link3"
+					value="xspIncome">
+				</xp:link>
+			</li>
+			<li>
+				<xp:link escape="true" text="レポート" id="link4"
+					value="xspChartSpendingBars">
+				</xp:link>
+			</li>
 		</ul>
 	</div>
 </xp:view>

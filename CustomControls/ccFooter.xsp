@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xp:view xmlns:xp="http://www.ibm.com/xsp/core">
-
-	<xp:label value="hoge" id="label1"></xp:label></xp:view>
+	
+	<xp:panel style="text-align:right;padding-left:4.0px;padding-right:4.0px">
+		<xp:link escape="true" id="link1" value="/xspProfile.xsp">
+			<xp:image id="image1" url="/gear-black.png"></xp:image>
+		</xp:link>
+	</xp:panel></xp:view>

@@ -225,7 +225,6 @@ calApp.daylyTotalTemplate = _.template("<br>"+
 
 //新規の支出文書画面を開く
 calApp.newSpending = function(){
-	console.log("hoge");
 	$('body').pagecontainer('change','xspSample1.xsp');
 };
 
