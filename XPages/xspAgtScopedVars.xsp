@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core" rendered="false">
+
+	URLパラメータ指定された文字列をsessionScopeに格納する。
+	<xp:br></xp:br><xp:span style="font-weight:bold">例：http(s)://[host]/house.nsf/xspAgtScopedVars?</xp:span><xp:span style="font-weight:bold;font-style:italic">hoge</xp:span><xp:span style="font-weight:bold">=</xp:span><xp:span style="font-weight:bold;font-style:italic">fuga</xp:span><xp:span style="font-weight:bold"></xp:span><xp:br></xp:br><xp:span style="font-weight:bold">→sessionScope</xp:span><xp:span style="font-weight:bold">.put(hoge,fuga)</xp:span>
+	<xp:br></xp:br>となる。
+	<xp:br style="font-weight:bold"></xp:br>
+	<xp:this.afterRenderResponse><![CDATA[#{javascript:var exCon = facesContext.getExternalContext(),
+	writer   = facesContext.getResponseWriter(),
+	response = exCon.getResponse(),
+	params  = exCon.getRequestParameterMap();
+	
+var key = params.keySet().toArray()[0];
+var value = params.get(key);
+sessionScope.put(key,value);
+
+response.setContentType( "application/json" );
+response.setHeader( "Cache-Control", "no-cache" );
+writer.write("{result:'success'}");
+writer.endDocument();
+facesContext.responseComplete();}]]></xp:this.afterRenderResponse></xp:view>
