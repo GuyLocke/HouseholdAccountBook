@@ -20,7 +20,8 @@
 
 	<xp:this.data>
 		<xp:dominoDocument var="incomeDetailDocument"
-			formName="frmIncomeDetail" computeWithForm="onsave">
+			formName="frmIncomeDetail" computeWithForm="onsave"
+			action="editDocument">
 			<xp:this.querySaveDocument><![CDATA[#{javascript:if(!incomeDetailDocument.hasItem('incomeId')){
 	var incomeId = context.getUrl().getParameter("incomeId");
 	incomeDetailDocument.replaceItemValue('incomeId', incomeId);
@@ -28,17 +29,23 @@
 if(!incomeDetailDocument.hasItem('incomeDetailId')){
 	incomeDetailDocument.replaceItemValue('incomeDetailId', java.util.UUID.randomUUID().toString());
 }}]]></xp:this.querySaveDocument>
+			<xp:this.documentId><![CDATA[#{javascript://URLパラメータのincomeDetailIdをキーとしてUNIDを取得
+var incomeDetailId = context.getUrl().getParameter("incomeDetailId");
+if ( incomeDetailId == "" ){
+	return "";
+}else{
+	return @DbLookup("", "(vwIncomeDetailsById)", incomeDetailId, 4);
+}}]]></xp:this.documentId>
 		</xp:dominoDocument>
 	</xp:this.data>
-	
+
 	<xc:ccPageTemplate>
 		<xp:this.facets>
 			<xc:ccFooter xp:key="facet_3"></xc:ccFooter>
 			<xc:ccMenu xp:key="facet_1"></xc:ccMenu>
 			<xp:panel xp:key="facet_2">
 				<xp:label value="分類" for="incomeType"></xp:label>
-				<xp:comboBox id="incomeType"
-					value="#{incomeDetailDocument.incomeType}">
+				<xp:comboBox id="incomeType" value="#{incomeDetailDocument.incomeType}">
 					<xp:selectItems>
 						<xp:this.value><![CDATA[#{javascript://分類マスタより取得
 var temp = @DbColumn("", "vwIncomeMaster", 2);
@@ -62,21 +69,36 @@ if ( temp == null ){
 					<xp:eventHandler event="onclick" submit="true"
 						refreshMode="complete">
 						<xp:this.action>
-
 							<xp:actionGroup>
-								<xp:saveDocument
-									var="incomeDetailDocument">
+								<xp:saveDocument var="incomeDetailDocument">
 								</xp:saveDocument>
+								<xp:executeScript>
+									<xp:this.script><![CDATA[#{javascript://呼び出し元の更新ボタンを押してウィンドウを閉じる
+var js;
+js  = 	"var owin = window.opener;";
+js += 	"if ( owin ){";
+js += 	"	if( owin.closed == false) {";
+js += 	"		if ( owin.dojo ){";
+js += 	"			var refreshbtn = owin.dojo.query('.refreshDetail')[0];";
+js += 	"			if ( refreshbtn ){";
+js += 	"				refreshbtn.click();";
+js += 	"			}";
+js += 	"		}";
+js += 	"	}";
+js += 	"}";
+js += 	"window.close();";
 
-								<xp:changeDocumentMode mode="readOnly"
-									var="incomeDetailDocument">
-								</xp:changeDocumentMode>
+view.postScript( js );}]]></xp:this.script>
+								</xp:executeScript>
 							</xp:actionGroup>
 						</xp:this.action>
 					</xp:eventHandler>
 				</xp:link>
 				<xp:link id="cancelIncome">
 					<span>キャンセル</span>
+					<xp:eventHandler event="onclick" submit="false">
+						<xp:this.script><![CDATA[window.close();]]></xp:this.script>
+					</xp:eventHandler>
 				</xp:link>
 			</xp:panel>
 		</xp:this.facets>

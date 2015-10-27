@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note class='view' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.0'
+ replicaid='49257EEB003705D0'>
+<noteinfo noteid='5e2' unid='B67F22AB57B087D449257EEB003723A6' sequence='1'>
+<created><datetime>20151027T190216,06+09</datetime></created>
+<modified><datetime>20151027T190216,07+09</datetime></modified>
+<revised><datetime>20151027T190216,06+09</datetime></revised>
+<lastaccessed><datetime>20151027T190216,07+09</datetime></lastaccessed>
+<addedtofile><datetime>20151027T190216,07+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Administrator/O=DEV</name></updatedby>
+<wassignedby><name>CN=Administrator/O=DEV</name></wassignedby>
+<item name='$FormulaClass' sign='true'><text>1</text></item>
+<item name='$Index' sign='true'><text/></item>
+<item name='$Formula' summary='true' sign='true'><formula compiled='true'>
+igACAA4AAgAkMJAAVgEDAAUAQgA9AAYADgAKAAYAAgAJAAQAaW5jb21lRGV0YWlsSWRpbmNvbWVU
+eXBlYW1vdW50JDAkQ29uZmxpY3QkUkVGAAQABAAAACgABQAEAEZvcm0BAA8AZnJtSW5jb21lRGV0
+YWlsAAoCBAAEAAMABwAMAAUACTNTNFMA
+</formula></item>
+<item name='$Collation' summary='true'>
+<rawitemdata type='2'>
+GwABAABEgGYAAAAOAGluY29tZURldGFpbElk
+</rawitemdata></item>
+<item name='$ViewFormat' summary='true' sign='true'>
+<rawitemdata type='5'>
+AQAEAAEACAAAAFZDAQAOAA4AAAAAAAABAQAACgAAAAAAAAAAAAICAAAAVkMAAAoACgAAAAAAUAAB
+AAAKAAAAAAAAAAAAAgIAAABWQwAABgAGAAAAAABQAAEAAAoAAAAAAAAAAAACAgAAAFZDAAACAAQA
+HAAAANgAAQAACgAAAAAAAAAAAAICAAAAaW5jb21lRGV0YWlsSWRpbmNvbWVEZXRhaWxJZGluY29t
+ZVR5cGVpbmNvbWVUeXBlYW1vdW50YW1vdW50JDBVTklEHAACAA4AAgAkMJAAVgEDAAcADAAFAAky
+UzNTACYAAQAAAAEBAAkBAAAKAQEACgAAAQCtKwEAAQABAAAAAAAAAAAAV0MBAQAJAAAAAAAAAAAA
+AAAAAAAAAAAABAAAAAAA//8AAAAAAAAAAAAAAAAAAFdDAQEACQAAAAAAAAAAAAAAAAAAAAAAAAQA
+AAAAAP//AAAAAAAAAAAAAAAAAABXQwEBAAkAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAD//wAAAAAA
+AAAAAAAAAAAAV0MBAQAJAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA//8AAAAAAAAAAAAAAAAAAEIA
+AAAAAAEA////AAUA////AAEAAAAAAAAAAAAAAAAAAQD///8AAQD///8AAAABAAAAAAABAAAAAAAB
+AAAAAAAAAAgAAAAAAAEA
+</rawitemdata></item>
+<item name='$Comment' sign='true'><text/></item>
+<item name='$Flags'><text>PY</text></item>
+<item name='$SelQuery' sign='true'>
+<rawitemdata type='f'>
+gQYAAAAAif8bAAAAAAABAA8AZnJtSW5jb21lRGV0YWlsAA==
+</rawitemdata></item>
+<item name='$TITLE' sign='true'><text>(vwIncomeDetailsById)|wIncomeDetailsById</text></item>
+<item name='$DesignerVersion' sign='true'><text>8.5.3</text></item></note>
+
