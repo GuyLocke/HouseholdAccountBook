@@ -8,11 +8,14 @@
 		<xp:script src="/reportLib.jss" clientSide="false"></xp:script>
 	</xp:this.resources>
 	<xp:this.beforePageLoad><![CDATA[#{javascript:genReportChart()}]]></xp:this.beforePageLoad>
-	<xp:div id="chart" style="width:200px;height:200px;"></xp:div>
+	<xp:div id="chart" style=""></xp:div>
 	
 	<xp:eventHandler event="onClientLoad" submit="false">
 		<xp:this.script><![CDATA[(function basic_pie(container) {
 
+	document.getElementById("#{id:chart}").style.width = self.innerWidth+'px';
+	document.getElementById("#{id:chart}").style.height = self.innerHeight+'px';
+	
 	//data
 	#{javascript:viewScope.chartdata1};
 	//draw

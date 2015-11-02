@@ -50,7 +50,9 @@
 		</xp:headTag>
 		<xp:script src="/csjsCalendarApp.js" clientSide="true"></xp:script>
 		<xp:styleSheet href="/calendarApp.css"></xp:styleSheet>
+		<xp:script src="/reportLib.jss" clientSide="false"></xp:script>
 	</xp:this.resources>
+
 	<xc:ccPageTemplate>
 		<xp:this.facets>
 			<xc:ccFooter xp:key="facet_3"></xc:ccFooter>
