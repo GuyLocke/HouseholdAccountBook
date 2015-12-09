@@ -6,4 +6,5 @@
 	<div id="dayInfoPage" class="dayInfoPage">
 		<xc:ccDayInfo></xc:ccDayInfo>
 	</div>
+	<xc:ccCreateReport></xc:ccCreateReport>
 </xp:view>

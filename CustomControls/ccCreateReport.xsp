@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core">
+	<xp:button id="button1" value="レポート作成">
+		<xp:eventHandler event="onclick" submit="true"
+			refreshMode="complete">
+			<xp:this.action><![CDATA[#{javascript:genReportDoc("2015/09");}]]></xp:this.action>
+		</xp:eventHandler></xp:button>
+</xp:view>
