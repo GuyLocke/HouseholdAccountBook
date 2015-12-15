@@ -58,13 +58,14 @@ return I18n.toString(today, 'yyyy-MM-dd');}]]></xp:this.defaultValue>
 						value="#{incomeDocument.area}">
 					</xp:inputText>
 				</div>
-				<xp:panel id="detailPanel">
-				<div data-role="fieldcontain">
-					<xp:label value="明細"></xp:label>
-					<ul data-role="listview" data-inset="true">
-						<xp:repeat id="incomeDetails" rows="99"
-							disableOutputTag="true" var="incomeDetail">
-							<xp:this.value><![CDATA[#{javascript:
+				<xp:panel id="detailPanel"
+					rendered="#{javascript:!currentDocument.isNewNote();}">
+					<div data-role="fieldcontain">
+						<xp:label value="明細"></xp:label>
+						<ul data-role="listview" data-inset="true">
+							<xp:repeat id="incomeDetails" rows="99"
+								disableOutputTag="true" var="incomeDetail">
+								<xp:this.value><![CDATA[#{javascript:
 (function(){
 	var incomeId = incomeDocument.getItemValueString('incomeId');
 	var detailView = database.getView('vwIncomeDetails');
@@ -83,34 +84,37 @@ return I18n.toString(today, 'yyyy-MM-dd');}]]></xp:this.defaultValue>
 	}
 	return detailList;
 })();}]]></xp:this.value>
-							<li>
+								<li>
+									<a
+										onclick="window.open('xspIncomeDetail.xsp?incomeDetailId=#{javascript:incomeDetail.incomeDetailId}', '_blank'); return false;">
+										<p>
+											<xp:text escape="true"
+												id="computedField1"
+												value="#{javascript:incomeDetail.incomeType;}">
+											</xp:text>
+										</p>
+										<p class="ui-li-aside">
+											<xp:text escape="true"
+												id="computedField2"
+												value="#{javascript:incomeDetail.amount;}">
+												<xp:this.converter>
+													<xp:convertNumber
+														pattern="￥ #,##0">
+													</xp:convertNumber>
+												</xp:this.converter>
+											</xp:text>
+										</p>
+									</a>
+								</li>
+							</xp:repeat>
+							<li data-icon="plus">
 								<a
-									onclick="window.open('xspIncomeDetail.xsp?incomeDetailId=#{javascript:incomeDetail.incomeDetailId}', '_blank'); return false;">
-									<p>
-										<xp:text escape="true" id="computedField1"
-											value="#{javascript:incomeDetail.incomeType;}">
-										</xp:text>
-									</p>
-									<p class="ui-li-aside">
-										<xp:text escape="true" id="computedField2"
-											value="#{javascript:incomeDetail.amount;}">
-											<xp:this.converter>
-												<xp:convertNumber pattern="￥ #,##0">
-												</xp:convertNumber>
-											</xp:this.converter>
-										</xp:text>
-									</p>
+									onclick="window.open('xspIncomeDetail.xsp?incomeId=#{javascript:incomeDocument.getItemValueString('incomeId')}', '_blank'); return false;">
+									<span>追加</span>
 								</a>
 							</li>
-						</xp:repeat>
-						<li data-icon="plus">
-							<a
-								onclick="window.open('xspIncomeDetail.xsp?incomeId=#{javascript:incomeDocument.getItemValueString('incomeId')}', '_blank'); return false;">
-								<span>追加</span>
-							</a>
-						</li>
-					</ul>
-				</div>
+						</ul>
+					</div>
 				</xp:panel>
 				<xp:link id="saveIncome"
 					styleClass="ui-btn ui-btn-inline ui-icon-check ui-btn-icon-left">

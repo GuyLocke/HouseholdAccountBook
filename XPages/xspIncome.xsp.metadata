@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.3" replicaid="49257EAC00179F23" version="9.0" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="572" sequence="31" unid="EF02A0F1503114CD49257EAC00259437">
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.5" replicaid="49257EAC00179F23" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="572" sequence="147" unid="EF02A0F1503114CD49257EAC00259437">
 <created><datetime>20150825T155027,75+09</datetime></created>
-<modified><datetime>20150929T144016,37+09</datetime></modified>
-<revised><datetime>20150929T144016,36+09</datetime></revised>
-<lastaccessed><datetime>20150929T144016,37+09</datetime></lastaccessed>
+<modified><datetime>20151215T145851,74+09</datetime></modified>
+<revised><datetime>20151215T145851,73+09</datetime></revised>
+<lastaccessed><datetime>20151215T145851,74+09</datetime></lastaccessed>
 <addedtofile><datetime>20150825T155027,76+09</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Kenji Ebihara/OU=R/O=RSI</name></updatedby>
 <wassignedby><name>CN=Kenji Ebihara/OU=R/O=RSI</name></wassignedby>
