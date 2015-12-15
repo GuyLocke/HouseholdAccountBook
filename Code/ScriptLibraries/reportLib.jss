@@ -1,10 +1,11 @@
 var genReportDoc = function(ym:String){
+//	ym = "201509";
 	var key:java.util.Vector = new java.util.Vector();
 	key.add(@UserName());
-	key.add(ym);
+	key.add(@Left(ym, 4)+"/"+@Right(ym, 2));
 
 	// Parse Year and Month from param
-	var dtYM:Date = I18n.parseDate(ym+"/01", "yyyy/MM/dd");
+	var dtYM:Date = I18n.parseDate(@Left(ym, 4)+"/"+@Right(ym, 2)+"/01", "yyyy/MM/dd");
 	var yr = dtYM.getFullYear();
 	var mon = dtYM.getMonth();
 
@@ -100,7 +101,8 @@ function genReportChart(){
 
 function getChartdata(){
 	//文書取得用のキー設定
-	var key = @UserName()+"201509";
+//	var key = @UserName()+"201509";
+	var key = @UserName()+sessionScope.currentYM;
 	
 	//出費した金額の取得
 	var Array_val = @DbLookup("","vwReportsByDate",key,"total");
