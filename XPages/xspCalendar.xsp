@@ -60,4 +60,8 @@
 			<xc:ccCalendarApp xp:key="facet_2"></xc:ccCalendarApp>
 		</xp:this.facets>
 	</xc:ccPageTemplate>
-</xp:view>
+	<xp:eventHandler event="onClientLoad" submit="true"
+		refreshMode="norefresh">
+		<xp:this.action><![CDATA[#{javascript:sessionScope.currentYM = @Year( Date.now ).toString() + "/" + @Month( Date.now ).toString();}]]></xp:this.action>
+	</xp:eventHandler>
+	</xp:view>

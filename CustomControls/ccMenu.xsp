@@ -10,12 +10,12 @@
 			</li>
 			<li>
 				<xp:link escape="true" text="支出" id="link2"
-					value="xspSpending">
+					value="/xspSpending.xsp">
 				</xp:link>
 			</li>
 			<li>
 				<xp:link escape="true" text="収入" id="link3"
-					value="xspIncome">
+					value="/xspIncome.xsp">
 				</xp:link>
 			</li>
 			<li>
