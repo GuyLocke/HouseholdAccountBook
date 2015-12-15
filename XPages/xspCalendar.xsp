@@ -62,6 +62,6 @@
 	</xc:ccPageTemplate>
 	<xp:eventHandler event="onClientLoad" submit="true"
 		refreshMode="norefresh">
-		<xp:this.action><![CDATA[#{javascript:sessionScope.currentYM = @Year( Date.now ).toString() + "/" + @Month( Date.now ).toString();}]]></xp:this.action>
+		<xp:this.action><![CDATA[#{javascript:sessionScope.currentYM = @Year( @Now() ).toString() + @Month( @Now() ).toString();}]]></xp:this.action>
 	</xp:eventHandler>
-	</xp:view>
+</xp:view>

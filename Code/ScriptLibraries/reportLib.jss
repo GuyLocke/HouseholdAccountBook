@@ -65,7 +65,8 @@ var genReportDoc = function(ym:String){
 
 function genReportChart(){
 	//文書取得用のキー設定
-	var key = @UserName()+"201509";
+//	var key = @UserName()+"201509";
+	var key = @UserName()+sessionScope.currentYM;
 	
 	//出費した金額の取得
 	var Array_val = @DbLookup("","vwReportsByDate",key,"total");
