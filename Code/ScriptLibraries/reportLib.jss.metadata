@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="filter" maintenanceversion="1.2" replicaid="49257E89002C68A9" version="9.0" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="bb2" sequence="1" unid="150E41A5A692FA7349257EF1004DF4F3">
-<created><datetime>20151102T231129,79+09</datetime></created>
-<modified><datetime>20151102T231129,82+09</datetime></modified>
-<revised><datetime>20151102T231129,81+09</datetime></revised>
-<lastaccessed><datetime>20151102T231129,82+09</datetime></lastaccessed>
-<addedtofile><datetime>20151102T231129,82+09</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Ktrick Admin/O=Ktrick</name></updatedby>
-<wassignedby><name>CN=Ktrick Admin/O=Ktrick</name></wassignedby>
+<?xml version="1.0" encoding="UTF-8"?><note class="filter" maintenanceversion="1.0" replicaid="49257F1C0020C775" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="566" sequence="5" unid="55AF581E6CED82E649257F1C0020CEF2">
+<created><datetime>20151215T145821,30+09</datetime></created>
+<modified><datetime>20151215T152021,19+09</datetime></modified>
+<revised><datetime>20151215T152021,18+09</datetime></revised>
+<lastaccessed><datetime>20151215T152021,19+09</datetime></lastaccessed>
+<addedtofile><datetime>20151215T145821,31+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Surface Administrator/O=EFLAB</name></updatedby>
+<wassignedby><name>CN=Surface Administrator/O=EFLAB</name></wassignedby>
 <item name="$TITLE" sign="true"><text>reportLib</text></item>
 <item name="$Flags"><text>.5834Q</text></item>
 <item name="$PublicAccess" sign="true"><text>1</text></item>
