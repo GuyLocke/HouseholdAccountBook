@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note class='view' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.2'
+ replicaid='49257E89002C68A9'>
+<noteinfo noteid='df2' unid='6C47BFDD17B5837C49257F1C001C4379' sequence='1'>
+<created><datetime>20151215T140842,81+09</datetime></created>
+<modified><datetime>20151215T140842,86+09</datetime></modified>
+<revised><datetime>20151215T140842,85+09</datetime></revised>
+<lastaccessed><datetime>20151215T140842,86+09</datetime></lastaccessed>
+<addedtofile><datetime>20151215T140842,86+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Ktrick Admin/O=Ktrick</name></updatedby>
+<wassignedby><name>CN=Ktrick Admin/O=Ktrick</name></wassignedby>
+<item name='$FormulaClass' sign='true'><text>1</text></item>
+<item name='$TITLE' sign='true'><text>vwSpendingsByYearMonth|支出一覧(年月順)</text></item>
+<item name='$Index' sign='true'><text/></item>
+<item name='$Formula' summary='true' sign='true'><formula compiled='true'>
+/AACABgAAgAkMQIABAAAAAAAAAB5ALQCAwACAEwAAgAkMAUACgB0YXJnZXREYXRlTgFWAQEAAQAv
+ACICAQABADAABQAKAHRhcmdldERhdGVPAVYBIgIAAAAAAAAAAABAYAIiAgMABQBCAD4ABwACAAIA
+DQAKAAQACQAEACQxJDBzcGVuZGluZ0RvY0lkdGFyZ2V0RGF0ZWFyZWEkQ29uZmxpY3QkUkVGBAAE
+AAAAPAAFAAQARm9ybQEACwBmcm1TcGVuZGluZwAKAgQABQAEAEZvcm0BAAYAEI54EI9vCgIEAB0C
+BAADAAcAFAAOAAkzUzRTNlM3UzlTMTBT
+</formula></item>
+<item name='$Collation' summary='true'>
+<rawitemdata type='2'>
+PQAEAABEiGYHAAACAIhmBwIAAgAAZgAEAA0AiGYAEQAKACQxJDBzcGVuZGluZ0RvY0lkdGFyZ2V0
+RGF0ZQ==
+</rawitemdata></item>
+<item name='$ViewFormat' summary='true' sign='true'>
+<rawitemdata type='5'>
+AQAFAAIACAAAAFZDAwACAAcAJAAAADQAAQAACgABAAAAAAAAAAICAAAAVkMDAAIADwBYAAAAUAAB
+AAAKAAEAAAAAAAAAAgIAAABWQwEADQAHAAAAAADOAAEAAAoAAAAAAAAAAAACAgAAAFZDAQAKAAoA
+AAAAAFAAAQAACgABAAAAAAAAAAICAAAAVkMAAAQABAAAAAAAUAABAAAKAAAAAAAAAAAAAgIAAAAk
+MUNyZWF0b3IkAAIAGAACACQxAgAEAAAAAAAAAHkAtAIDAAcACgADAAk0UwAkMHRhcmdldFllYXJN
+b250aFgAAgBMAAIAJDAFAAoAdGFyZ2V0RGF0ZU4BVgEBAAEALwAiAgEAAQAwAAUACgB0YXJnZXRE
+YXRlTwFWASICAAAAAAAAAAAAQGACIgIDAAcACgAEAAkyMlNzcGVuZGluZ0RvY0lkaW5jb21JZHRh
+cmdldERhdGV0YXJnZXREYXRlYXJlYWFyZWEmAAEAAAABAQAJAQAACgEBAAoAAAEArSsBAAEAAQAA
+AAAAAAAAAFdDAQEECQAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAP//AAAAAAAAAAAAAAAAAABXQwEB
+BAkAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAD//wAAAAAAAAAAAAAAAAAAV0MBAQAJAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAA//8AAAAAAAAAAAAAAAAAAFdDAQEACQAAAAAAAAAAAAAAAAAAAAAAAAQA
+AAAAAP//AAAAAAAAAAAAAAAAAABXQwEBAAkAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAD//wAAAAAA
+AAAAAAAAAAAAQgAAAAAAAQD///8ABQD///8AAQAAAAAAAAAAAAAAAAABAP///wABAP///wAAAAEA
+AAAAAAEAAAAAAAEAAAAAAAAACAAAAAAAAQA=
+</rawitemdata></item>
+<item name='$Comment' sign='true'><text/></item>
+<item name='$Flags'><text>PY</text></item>
+<item name='$DesignerVersion'><text>8.5.3</text></item>
+<item name='$SelQuery' sign='true'>
+<rawitemdata type='f'>
+gQYAAAAAif8eAAAAAAABABIAZnJtU3BlbmRpbmd8EI54EI9v
+</rawitemdata></item></note>
+

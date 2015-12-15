@@ -1,20 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xp:view xmlns:xp="http://www.ibm.com/xsp/core">
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core" xmlns:xc="http://www.ibm.com/xsp/custom">
 
 	<xp:this.resources>
+		<xp:styleSheet href="/jquery.mobile-1.4.5.min.css"></xp:styleSheet>
+		<xp:headTag tagName="script">
+			<xp:this.attributes>
+				<xp:parameter name="type" value="text/javascript"></xp:parameter>
+				<xp:parameter name="src" value="jquery-1.11.3.min.js">
+				</xp:parameter>
+			</xp:this.attributes>
+		</xp:headTag>
+		<xp:headTag tagName="script">
+			<xp:this.attributes>
+				<xp:parameter name="type" value="text/javascript"></xp:parameter>
+				<xp:parameter name="src" value="jquery.mobile-1.4.5.min.js">
+				</xp:parameter>
+			</xp:this.attributes>
+		</xp:headTag>
 		<xp:script src="/amd_stop.js" clientSide="true"></xp:script>
 		<xp:script src="/flotr2.min.js" clientSide="true"></xp:script>
 		<xp:script src="/amd_start.js" clientSide="true"></xp:script>
 		<xp:script src="/reportLib.jss" clientSide="false"></xp:script>
 	</xp:this.resources>
 	<xp:this.beforePageLoad><![CDATA[#{javascript:genReportChart()}]]></xp:this.beforePageLoad>
-	<xp:div id="chart" style=""></xp:div>
+	
+	<xc:ccPageTemplate>
+		<xp:this.facets>
+			<xc:ccFooter xp:key="facet_3"></xc:ccFooter>
+			<xc:ccMenu xp:key="facet_1"></xc:ccMenu>
+			<xp:div id="chart" style=""  xp:key="facet_2"></xp:div>
+		</xp:this.facets>
+	</xc:ccPageTemplate>
 	
 	<xp:eventHandler event="onClientLoad" submit="false">
 		<xp:this.script><![CDATA[(function basic_pie(container) {
 
-	document.getElementById("#{id:chart}").style.width = self.innerWidth+'px';
-	document.getElementById("#{id:chart}").style.height = self.innerHeight+'px';
+	document.getElementById("#{id:chart}").style.width = self.innerWidth-30+'px';
+	document.getElementById("#{id:chart}").style.height = self.innerHeight-60+'px';
 	
 	//data
 	#{javascript:viewScope.chartdata1};

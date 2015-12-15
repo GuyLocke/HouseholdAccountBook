@@ -3,6 +3,7 @@
 	<xp:button id="button1" value="レポート作成">
 		<xp:eventHandler event="onclick" submit="true"
 			refreshMode="complete">
-			<xp:this.action><![CDATA[#{javascript:genReportDoc("2015/09");}]]></xp:this.action>
+			<xp:this.action><![CDATA[#{javascript:genReportDoc("2015/09");
+context.redirectToPage("xspResultReport");}]]></xp:this.action>
 		</xp:eventHandler></xp:button>
 </xp:view>
