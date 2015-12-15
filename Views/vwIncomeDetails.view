@@ -1,44 +1,38 @@
 <?xml version='1.0' encoding='utf-8'?>
-<note class='view' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.0'
- replicaid='49257ECF002686C1'>
-<noteinfo noteid='19a' unid='57C07BBF96422DBA49257E66002B3683' sequence='10'>
+<view name='vwIncomeDetails' alias='収入明細一覧' xmlns='http://www.lotus.com/dxl'
+ version='9.0' maintenanceversion='1.5' replicaid='49257EFB0009A086' showinmenu='false'
+ noreplace='true' publicaccess='false' designerversion='8.5.3' unreadmarks='none'
+ onopengoto='lastopened' onrefresh='displayindicator' headers='beveled' opencollapsed='false'
+ showresponsehierarchy='true' showmargin='true' shrinkrows='false' extendlastcolumn='false'
+ showhierarchies='false' unreadcolor='black' rowlinecount='1' headerlinecount='1'
+ rowspacing='1' bgcolor='white' totalscolor='black' headerbgcolor='white'
+ boldunreadrows='false' evaluateactions='false' allownewdocuments='false'
+ allowcustomizations='true' hidemarginborder='false' marginwidth='0px' marginbgcolor='white'
+ uniquekeys='false'>
+<noteinfo noteid='172' unid='57C07BBF96422DBA49257E66002B3683' sequence='16'>
 <created><datetime>20150616T165200,03+09</datetime></created>
-<modified><datetime>20150929T160732,90+09</datetime></modified>
-<revised><datetime>20150929T160732,89+09</datetime></revised>
-<lastaccessed><datetime>20150929T160732,90+09</datetime></lastaccessed>
-<addedtofile><datetime>20150929T160225,18+09</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Administrator/O=DEV</name></updatedby>
-<wassignedby><name>CN=Administrator/O=DEV</name></wassignedby>
-<item name='$FormulaClass' sign='true'><text>1</text></item>
-<item name='$TITLE' sign='true'><text>vwIncomeDetails|収入明細一覧</text></item>
-<item name='$Index' sign='true'><text/></item>
-<item name='$Formula' summary='true' sign='true'><formula compiled='true'>
-sAAFAEgAQwAGAAgADgAKAAYACQAEAGluY29tZUlkaW5jb21lRGV0YWlsSWRpbmNvbWVUeXBlYW1v
-dW50JENvbmZsaWN0JFJFRgAEAAQAAABKAAUABABGb3JtAQAOAGZybUluY29tRGV0YWlsCgIEAAUA
-BABGb3JtAQASABCO+xCT/BCWvhCN1xCVthCPkQoCBAAdAgQAAwAHABgAEgAJTDFTNFM1UzdTOFMx
-MFMxMVM=
-</formula></item>
-<item name='$Collation' summary='true'>
-<rawitemdata type='2'>
-FQABAABECGYHAAAIAGluY29tZUlk
-</rawitemdata></item>
-<item name='$ViewFormat' summary='true' sign='true'>
-<rawitemdata type='5'>
-AQAEAAAACAAAAFZDAwAIAAgAAAAAAFAAAQAACgABAAAAAAAAAAICAAAAVkMAAA4ADgAAAAAAUAAB
-AAAKAAAAAAAAAAAAAgIAAABWQwAACgAKAAAAAABQAAEAAAoAAAAAAAAAAAACAgAAAFZDAAAGAAYA
-AAAAAFAAAQAACgAAAAAAAAAAAAICAAAAaW5jb21lSWRpbmNvbWVJZGluY29tZURldGFpbElkaW5j
-b21lRGV0YWlsSWRpbmNvbWVUeXBlaW5jb21lVHlwZWFtb3VudGFtb3VudCYAAQAAAAEBAAkBAAAK
-AQEACgAAAQCtKwEAAQABAAAAAAAAAAAAV0MBAQQJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8A
-AAAAAAAAAAAAAAAAAFdDAQEACQAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAP//AAAAAAAAAAAAAAAA
-AABXQwEBAAkAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAD//wAAAAAAAAAAAAAAAAAAV0MBAQAJAAAA
-AAAAAAAAAAAAAAAAAAAABAAAAAAA//8AAAAAAAAAAAAAAAAAAEIAAAAAAAEA////AAUA////AAEA
-AAAAAAAAAAAAAAAAAQD///8AAQD///8AAAABAAAAAAABAAAAAAABAAAAAAAAAAgAAAAAAAEA
-</rawitemdata></item>
-<item name='$Comment' sign='true'><text/></item>
-<item name='$Flags'><text>PY</text></item>
-<item name='$DesignerVersion'><text>8.5.3</text></item>
+<modified><datetime>20151112T111659,54+09</datetime></modified>
+<revised><datetime>20151112T111659,53+09</datetime></revised>
+<lastaccessed><datetime>20151112T111659,54+09</datetime></lastaccessed>
+<addedtofile><datetime>20151112T104509,68+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Kenji Ebihara/OU=R/O=RSI</name></updatedby>
+<wassignedby><name>CN=Kenji Ebihara/OU=R/O=RSI</name></wassignedby><code event='selection'><formula
+>SELECT ((Form = "frmIncomeDetail"))</formula></code>
+<column sort='ascending' hidedetailrows='false' itemname='incomeId' width='10'
+ resizable='true' separatemultiplevalues='true' sortnoaccent='true' sortnocase='true'
+ showaslinks='false' categorized='true'><columnheader title='incomeId'><font
+ size='9pt' color='blue' style='bold'/></columnheader></column>
+<column hidedetailrows='false' itemname='incomeDetailId' width='10' resizable='true'
+ separatemultiplevalues='false' sortnoaccent='false' sortnocase='true' showaslinks='false'><columnheader
+ title='incomeDetailId'><font size='9pt' style='bold'/></columnheader></column>
+<column hidedetailrows='false' itemname='incomeType' width='10' resizable='true'
+ separatemultiplevalues='false' sortnoaccent='false' sortnocase='true' showaslinks='false'><columnheader
+ title='incomeType'><font size='9pt' style='bold'/></columnheader></column>
+<column hidedetailrows='false' itemname='amount' width='10' resizable='true'
+ separatemultiplevalues='false' sortnoaccent='false' sortnocase='true' showaslinks='false'><columnheader
+ title='amount'><font size='9pt' style='bold'/></columnheader></column>
 <item name='$SelQuery' sign='true'>
 <rawitemdata type='f'>
-gQYAAAAAif8tAAAAAAABACEAZnJtSW5jb21EZXRhaWx8EI77EJP8EJa+EI3XEJW2EI+RAA==
-</rawitemdata></item></note>
+gQYAAAAAif8bAAAAAAABAA8AZnJtSW5jb21lRGV0YWlsAA==
+</rawitemdata></item></view>
 
