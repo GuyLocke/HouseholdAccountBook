@@ -15,19 +15,12 @@
 		<xp:this.script><![CDATA[(function drawChartStackedHorizontalBars(container) {
 
 	//data
-	#{javascript:viewScope.chartdataStackedHorizontalBars};
+	#{javascript:viewScope.chartdata1};
 
 	//draw
-	graph = Flotr.draw(container, [{
-		data: d1,
-		label: '食品'
-	}, {
-		data: d2,
-		label: '住居費'
-	}, {
-		data: d3,
-		label: '光熱費'
-	}], {
+    graph = Flotr.draw(container, 
+	#{javascript:viewScope.chartdata2}
+    , {	
 		title: "支出レポート",
 		legend: {
 			position: "ne",
