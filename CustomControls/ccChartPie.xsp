@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core">
+	<xp:this.beforePageLoad><![CDATA[#{javascript:genReportChart()}]]></xp:this.beforePageLoad>
+
+	<xp:div id="chart" style=""></xp:div>
+
+	<xp:eventHandler event="onClientLoad" submit="false">
+		<xp:this.script><![CDATA[(function basic_pie(container) {
+
+	document.getElementById("#{id:chart}").style.width = self.innerWidth-30+'px';
+	document.getElementById("#{id:chart}").style.height = self.innerHeight-60+'px';
+	
+	//data
+	#{javascript:viewScope.chartdata1};
+	//draw
+    graph = Flotr.draw(container, 
+	#{javascript:viewScope.chartdata2}
+    , {
+        HtmlText: false,
+        grid: {
+            verticalLines: false,
+            horizontalLines: false
+        },
+        xaxis: {
+            showLabels: false
+        },
+        yaxis: {
+            showLabels: false
+        },
+        pie: {
+            show: true,
+            explode: 6
+        },
+        mouse: {
+            track: true
+        },
+        legend: {
+            position: 'se',
+            backgroundColor: '#D2E8FF'
+        }
+    });
+})(document.getElementById("#{id:chart}"));
+
+]]></xp:this.script>
+	</xp:eventHandler>
+</xp:view>

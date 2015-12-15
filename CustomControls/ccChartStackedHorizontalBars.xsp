@@ -1,25 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xp:view xmlns:xp="http://www.ibm.com/xsp/core">
 
-	<xp:this.resources>
-		<xp:script src="/amd_stop.js" clientSide="true"></xp:script>
-		<xp:script src="/flotr2.min.js" clientSide="true"></xp:script>
-		<xp:script src="/amd_start.js" clientSide="true"></xp:script>
-		<xp:script src="/chartStackedHorizontalBars.jss" clientSide="false"></xp:script>
-	</xp:this.resources>
 	<xp:this.beforePageLoad><![CDATA[#{javascript:getChartdata()}]]></xp:this.beforePageLoad>
 	<xp:div id="chartStackedHorizontalBars"
 		style="width:600px;height:200px;">
 	</xp:div>
+	
 	<xp:eventHandler event="onClientLoad" submit="false">
 		<xp:this.script><![CDATA[(function drawChartStackedHorizontalBars(container) {
 
 	//data
-	#{javascript:viewScope.chartdata1};
+	#{javascript:viewScope.barChartdata1};
 
 	//draw
     graph = Flotr.draw(container, 
-	#{javascript:viewScope.chartdata2}
+	#{javascript:viewScope.barChartdata2}
     , {	
 		title: "支出レポート",
 		legend: {
