@@ -20,7 +20,7 @@
 	<xc:ccPageTemplate>
 		<xp:this.facets>
 			<xc:ccFooter xp:key="facet_3"></xc:ccFooter>
-			<xp:label value="ラベル１" id="label1" xp:key="facet_2"></xp:label>
+			<xp:label value="ラベル" id="label1" xp:key="facet_2"></xp:label>
 			<xc:ccMenu xp:key="facet_1"></xc:ccMenu>
 		</xp:this.facets>
 	</xc:ccPageTemplate>
