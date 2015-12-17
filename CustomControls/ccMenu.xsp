@@ -6,17 +6,23 @@
 				<xp:link escape="true" id="link1"
 					value="/xspCalendar.xsp" text="トップ">
 
-				</xp:link>
+				<xp:this.attrs>
+					<xp:attr name="data-ajax" value="false"></xp:attr>
+				</xp:this.attrs></xp:link>
 			</li>
 			<li>
 				<xp:link escape="true" text="支出" id="link2"
 					value="/xspSpending.xsp">
-				</xp:link>
+				<xp:this.attrs>
+					<xp:attr name="data-ajax" value="false"></xp:attr>
+				</xp:this.attrs></xp:link>
 			</li>
 			<li>
 				<xp:link escape="true" text="収入" id="link3"
 					value="/xspIncome.xsp">
-				</xp:link>
+				<xp:this.attrs>
+					<xp:attr name="data-ajax" value="false"></xp:attr>
+				</xp:this.attrs></xp:link>
 			</li>
 			<li>
 				<xp:link escape="true" text="レポート" id="link4"
