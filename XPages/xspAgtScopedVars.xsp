@@ -16,6 +16,7 @@ sessionScope.put(key,value);
 
 response.setContentType( "application/json" );
 response.setHeader( "Cache-Control", "no-cache" );
-writer.write("{result:'success'}");
 writer.endDocument();
-facesContext.responseComplete();}]]></xp:this.afterRenderResponse></xp:view>
+facesContext.responseComplete();
+//print("key=" + key + ",value=" + sessionScope.get(key));
+}]]></xp:this.afterRenderResponse></xp:view>

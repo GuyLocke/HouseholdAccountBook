@@ -135,6 +135,7 @@ calApp.displayCalendar = function(){
 			calApp.applyDailyTotal();
 		}
 	});
+	calApp.setScopedVar('currentYM',moment().format('YYYYMM'));
 };
 
 //当月のカレンダーを表示する。
@@ -210,7 +211,7 @@ calApp.dayInfoTemplate = _.template("<div class='detail_section'>"+
 	"<span class='event_shopName'><a href='<%= event.url %>'><%= event.shopName%>(&yen<%= event.total %>)</a></span>"+
 	"</div>"+
 	"<% }); %>"+
-	"<div><span class='new_spending_button'>追加</span></div>");
+	"<!--div><span class='new_spending_button'>追加</span></div-->");
 
 //カレンダー内に各日の合計を表示するためのテンプレート
 calApp.daylyTotalTemplate = _.template("<br>"+
