@@ -1,18 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.2" replicaid="49257E89002C68A9" version="9.0" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="bae" sequence="6" unid="E21B6CEC4311688149257EF1004DEDCF">
-<created><datetime>20151102T231111,51+09</datetime></created>
-<modified><datetime>20151102T231113,33+09</datetime></modified>
-<revised><datetime>20151102T231113,32+09</datetime></revised>
-<lastaccessed><datetime>20151102T231113,33+09</datetime></lastaccessed>
-<addedtofile><datetime>20151102T231111,52+09</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Ktrick Admin/O=Ktrick</name></updatedby>
-<wassignedby><name>CN=Ktrick Admin/O=Ktrick</name></wassignedby>
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.5" replicaid="49257E62002A0AEA" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="876" sequence="18" unid="0BF4025D0E558E3349257F08002BBD61">
+<created><datetime>20151125T165745,29+09</datetime></created>
+<modified><datetime>20160218T105655,05+09</datetime></modified>
+<revised><datetime>20160218T105655,03+09</datetime></revised>
+<lastaccessed><datetime>20160218T105655,03+09</datetime></lastaccessed>
+<addedtofile><datetime>20151125T165745,29+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Domino Administrator/O=EFMIYO</name></updatedby>
+<wassignedby><name>CN=Domino Administrator/O=EFMIYO</name></wassignedby>
 <item name="$TITLE"><text>xspResultReport.xsp</text></item>
 <item name="$Flags"><text>gC~4K</text></item>
 
 
 <item name="$FileNames" sign="true"><text>xspResultReport.xsp</text></item>
-<item name="$DesignerVersion"><text>8.5.1</text></item>
+<item name="$DesignerVersion"><text>8.5.2</text></item>
 
 
 

@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <note default='true' class='icon' xmlns='http://www.lotus.com/dxl' version='9.0'
- maintenanceversion='1.0' replicaid='49257F1C0020C775'>
-<noteinfo noteid='11a' unid='713FE832A63B236B49257F1C0020C77D' sequence='11'>
-<created><datetime>20151215T145802,21+09</datetime></created>
-<modified><datetime>20151215T152649,26+09</datetime></modified>
-<revised><datetime>20151215T152649,25+09</datetime></revised>
-<lastaccessed><datetime>20151215T152649,26+09</datetime></lastaccessed>
-<addedtofile><datetime>20151215T145802,24+09</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Surface Administrator/O=EFLAB</name></updatedby>
-<wassignedby><name>CN=Surface Administrator/O=EFLAB</name></wassignedby>
+ maintenanceversion='1.5' replicaid='49257E62002A0AEA'>
+<noteinfo noteid='11e' unid='362990D61025F4C949257E62002A0B09' sequence='58'>
+<created><datetime>20150612T163913,37+09</datetime></created>
+<modified><datetime>20160215T090851,97+09</datetime></modified>
+<revised><datetime>20160215T090851,95+09</datetime></revised>
+<lastaccessed><datetime>20160215T090851,95+09</datetime></lastaccessed>
+<addedtofile><datetime>20150612T163913,39+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Domino Administrator/O=EFMIYO</name></updatedby>
+<wassignedby><name>CN=Domino Administrator/O=EFMIYO</name></wassignedby>
 <item name='IconBitmap' summary='true'>
 <rawitemdata type='6'>
 AiAgAQAA///////wD///4Af//8AD//4AAH/8AAA/+AAAH/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAA

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xp:view xmlns:xp="http://www.ibm.com/xsp/core">
 	<xp:this.beforePageLoad><![CDATA[#{javascript:genReportChart()}]]></xp:this.beforePageLoad>
-
 	<xp:div id="chart" style=""></xp:div>
-
 	<xp:eventHandler event="onClientLoad" submit="false">
 		<xp:this.script><![CDATA[(function basic_pie(container) {
 
